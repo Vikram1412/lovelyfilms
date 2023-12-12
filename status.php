@@ -69,7 +69,7 @@ include('header.php');
 include('second-header.php');
 ?>
 <!--end of navigation-->
-<div class="page-wrapper bg-gra-03 p-b-50 bg-rg" style="padding-top:100px;">
+<div class="page-wrapper bg-gra-03 p-b-50 bg-rg" >
   <div class="wrapper wrapper--w790">
     <div class="card card-5" style="margin-top:100px; height: 100px;">
      <h5 class="text-center" style="margin-top:35px; color:#348724;"><?php echo $errorMsg;?></h5>

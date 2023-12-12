@@ -216,7 +216,7 @@ require_once 'includes/config.php';
 </section>
 <!--end of video section--> 
 <!--news section-->
-<section>
+<!-- <section>
   <div class="full bg-white">
     <div class="mycontainer">
       <div class="full">
@@ -227,8 +227,8 @@ require_once 'includes/config.php';
           <div class="owl-carousel owl-theme">
               
         <?php
-        $query = mysqli_query($conn, "SELECT id, title, description, link, photo FROM tbl_news WHERE 1");
-        while($res = mysqli_fetch_array($query)){
+      /*   $query = mysqli_query($conn, "SELECT id, title, description, link, photo FROM tbl_news WHERE 1");
+        while($res = mysqli_fetch_array($query)){ */
         ?>
         
        <div class="item">
@@ -238,8 +238,8 @@ require_once 'includes/config.php';
             <div class="mask rgba-white-slight"></div>
             </a> </div>
           <div class="card-body card " style="height:210px;">
-            <h5 style="font-size: 17px;"><?php echo substr(stripslashes($res['title']), 0, 100); ?></h5>
-            <p class="card-text"><a href="<?php echo stripslashes($res['link']); ?>"><?php echo substr(stripslashes($res['description']), 0, 125); ?></a></p>
+            <h5 style="font-size: 17px;"><?php /* echo substr(stripslashes($res['title']), 0, 100); */ ?></h5>
+            <p class="card-text"><a href="<?php /* echo stripslashes($res['link']); ?>"><?php echo substr(stripslashes($res['description']), 0, 125); */ ?></a></p>
           </div>
         </div>
         </div>
@@ -247,27 +247,27 @@ require_once 'includes/config.php';
         
         <div class="item">
           <div class="col-lg-12 col-md-12 col-sm-12 col-12 card-personal mb-12 float-left"> 
-            <div class="view overlay"><a href="news"> <img src="adminmain/uploads/news/<?php  if($res['photo']) { echo $res['photo']; } else { echo 'Na.png'; }?>" alt="" title="" style="height: 166px; width: 288px;">
+            <div class="view overlay"><a href="news"> <img src="adminmain/uploads/news/<?php/*   if($res['photo']) { echo $res['photo']; } else { echo 'Na.png'; } */?>" alt="" title="" style="height: 166px; width: 288px;">
               <div class="mask rgba-white-slight"></div>
               </a> </div>          
             <div class="card-body card " style="height:210px;">
-              <h5 style="font-size: 17px;"><a href="<?php echo stripslashes($res['link']); ?>"><?php echo substr(stripslashes($res['title']), 0, 200); ?></a></h5>
-              <p class="card-text"><?php echo substr(stripslashes($res['description']), 0, 125); ?>...</p>
+              <h5 style="font-size: 17px;"><a href="<?php /* echo stripslashes($res['link']); ?>"><?php echo substr(stripslashes($res['title']), 0, 200); ?></a></h5>
+              <p class="card-text"><?php echo substr(stripslashes($res['description']), 0, 125); */ ?>...</p>
             </div>          
           </div>
         </div>
 
         
-        <?php }?>
+        <?php /* } */?>
         </div>
-        </section>
+        </section> -->
         
-      </div>
+   <!--    </div>
       <div class="full text-center mt-5 mb-5"> <a href="news">
         <button type="button" class="btn btn-danger text-uppercase text-center">More news</button>
         </a> </div>
     </div>
-  </div>
+  </div> -->
 </section>
 <!--end of news section--> 
 <!--footer section-->

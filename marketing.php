@@ -23,9 +23,9 @@ include('second-header.php');
 
 <!--video section-->
 <section>
-  <div class="full bg-vision" style="margin-top:150px;">
+  <div class="full bg-vision" >
     <div class="container">
-       <div class="full mb-5">
+       <div class="full ">
     <h1 class="text-uppercase text-center mt-5 my-clr">Marketing & Distribution</h1>
 		</div>
       <div class="full left mb-5">

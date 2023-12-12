@@ -903,7 +903,7 @@ ul.gallery-menu li.active,ul.gallery-menu li:hover{color:#e2a750;}
 
 /* Footer Bootom */ 
 .footer-bottom {
-  border-top: 1px solid #aaa;
+  border-top: 3px double #f37021;
   display: block;
   overflow: hidden;
   padding: 15px 0;

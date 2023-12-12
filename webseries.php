@@ -60,7 +60,7 @@ include('second-header.php');
 	
 	<!--movies section-->
 <section>
-  <div class="full bg-white" style="margin-top:80px;">
+  <div class="full bg-white" >
     <div class="mycontainer">
       <div class="col-xs-12 float-left">
 <h1 class="text-uppercase text-center mt-my mb-3">Web series</h1>

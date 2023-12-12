@@ -38,7 +38,7 @@ include('second-header.php');
 </style>
 
 <section>
-  <div class="full bg-white" style="margin-top:100px;">
+  <div class="full bg-white" >
     <div class="container">
       <div class="full">
         <h1 class="text-uppercase text-center mt-my" style="margin-top: 35px;">Our Leadership Team</h1>

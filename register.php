@@ -165,7 +165,7 @@ include('header.php');
 
 include('second-header.php');
 ?>
-<div class="page-wrapper bg-gra-03 p-b-50 bg-rg" style="padding-top:100px;">
+<div class="page-wrapper bg-gra-03 p-b-50 bg-rg" >
   <div class="wrapper wrapper--w790">
     <div class="card card-5">
       <div class="card-heading">

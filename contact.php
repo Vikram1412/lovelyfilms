@@ -24,7 +24,7 @@ include('second-header.php');
 
 <!--news section-->
 <section>
-  <div class="full bg-white" style="margin-top:100px;">
+  <div class="full bg-white" >
     <div class="container">
       <div class="full">
         <h1 class="text-uppercase text-center mt-my" style="margin-top: 35px;">Contact Us</h1>
@@ -47,15 +47,15 @@ include('second-header.php');
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1884.6973920664643!2d72.83315871614319!3d19.134188853484673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7aed48afee9%3A0x94be1a282a0211be!2sLovely+Films+Production+House!5e0!3m2!1sen!2sin!4v1561360004049!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                   </div>
                   <!-- Google Map -->
-                  <div class="contact-address">
+                <!--   <div class="contact-address">
                       <h4 style="color: #fff;position: relative;padding-bottom: 15px;padding-left: 140px;">ADDRESS</h4>
                       <p style="margin-left: 15px;color: #fff;">M/s Lovely Films Private Limited, 1405, Remi Commercio, opp. Yash Raj Studio, Industrial Area, Andheri (W), Mumbai, Maharashtra - 400053, India.</p>
-                      <!--<h4 style="color: #fff;position: relative;padding-bottom: 15px;padding-left: 140px;">E-mail | Phone</h4-->
-                      <p style="margin-left: 15px;color: #fff;">E-mail : info@lovelyfilms.in</p>
-                      <p style="margin-left: 15px;color: #fff;">Phone : +91-22-6708 0500</p>
+                      <h4 style="color: #fff;position: relative;padding-bottom: 15px;padding-left: 140px;">E-mail | Phone</h4-->
+                      <!-- <p style="margin-left: 15px;color: #fff;">E-mail : info@lovelyfilms.in</p>
+                      <p style="margin-left: 15px;color: #fff;">Phone : +91-22-6708 0500</p> -->
                       <!--<h4 style="color: #fff;position: r5elative;padding-bottom: 15px;padding-left: 140px;">PHONE</h4>
-                      <p style="margin-left: 60px;color: #fff;">022 6708 0500</p>--> 
-                  </div>
+                      <p style="margin-left: 60px;color: #fff;">022 6708 0500</p>
+                  </div> -->
                 </div>
               </div>
             </div>

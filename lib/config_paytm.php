@@ -12,7 +12,7 @@
 //define('PAYTM_MERCHANT_KEY', '6j98jhF@wksd@#p&'); //Change this constant's value with Merchant key downloaded from portal
 //define('PAYTM_MERCHANT_MID', 'Yyfcwn71634050263138'); //Change this constant's value with MID (Merchant ID) received from Paytm
 
- define('PAYTM_ENVIRONMENT', 'TEST'); // PROD
+define('PAYTM_ENVIRONMENT', 'TEST'); // PROD
 define('PAYTM_MERCHANT_KEY', 'aTQ8YPTKrKTGy8qF'); //Change this constant's value with Merchant key downloaded from portal
 define('PAYTM_MERCHANT_MID', 'LaharE51547272717438'); //Change this constant's value with MID (Merchant ID) received from Paytm
 define('PAYTM_MERCHANT_WEBSITE', 'LovelyFilms'); //Change this constant's value with Website name received from Paytm

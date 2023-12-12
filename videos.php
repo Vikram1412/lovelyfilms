@@ -22,7 +22,7 @@ include('second-header.php');
 
 <!--video section-->
 <section>
-  <div class="full " style="margin-top:150px; backgrond-color:#000; -webkit-background-color:#000;">
+  <div class="full " style="backgrond-color:#000; -webkit-background-color:#000;">
     <div class="mycontainer">
       <div class="full mt-5">
         <h1 class="text-uppercase text-center my-clr">video</h1>

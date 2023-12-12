@@ -1,8 +1,6 @@
 <?php
 include_once("includes/config.php");
 ?>
-
-
 <style>
 .mydown > a:after {
     content: ' \25BF';
@@ -16,7 +14,6 @@ include_once("includes/config.php");
 
 }
 
-
 @keyframes blinks {
     
         0%,20%{ color: #ff0000;text-shadow : 7px 0px 15px ##ff0000; }
@@ -26,8 +23,6 @@ include_once("includes/config.php");
 
         
 }
-
-
 
 </style>
 <nav>
@@ -87,7 +82,7 @@ include_once("includes/config.php");
             
             <li><a href="contact">Contact Us</a></li>
 
-            <li><a href="#" class="animation"> New Upcoming Chandrayaan -3 </a></li>
+            <li><a href="new-upcoming-chandrayaan" class="animation"> New Upcoming Chandrayaan </a></li>
           </ul>
 
 
@@ -107,11 +102,11 @@ include_once("includes/config.php");
         <div class="col-md-3 col-sm-3 hidden-xs main-pad0 float-right mt-25-hide" style="max-width: 11%;">
           <div class="head-social dh-list pull-right mt15 m24-mob fl-main">
             <ul class="padding0 margin0 hideonmob">
-              <!--<li><a href="register" style="font-size: 19px;
-    margin-right: 40px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;">Audition Open</a></li>-->
+     <!--<li><a href="register" style="font-size: 19px;
+        margin-right: 40px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;">Audition Open</a></li>-->
               <li><a href="https://www.facebook.com/lovelyfilmsprod/" target="_blank"><i class="fa fa-facebook"></i></a></li>
               <li><a href="https://twitter.com/LovelyFilmsProd" target="_blank"><i class="fa fa-twitter"></i></a></li>
               <!-- <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>-->
