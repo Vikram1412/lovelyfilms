@@ -34,15 +34,23 @@ require_once 'includes/config.php';
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/banner/aliya.jpeg" alt="First slide">
+      <img class="d-block w-100" src="images/banner/chandrayaan.png" alt="First slide">
     </div>
 
-    <!--<div class="carousel-item">
-      <img class="d-block w-100" src="images/slide2.png" alt="Second slide">
+     <div class="carousel-item">
+      <img class="d-block w-100" src="images/banner/lovelyfilms.png" alt="Second slide">
     </div>
+
+    <!------
+
     <div class="carousel-item">
+      <img class="d-block w-100" src="images/banner/lovelyfilms-prod.png" alt="Third slide">
+    </div> --> 
+
+
+  <!--   <div class="carousel-item">
       <img class="d-block w-100" src="images/slide3.png" alt="Third slide">
-    </div>--->
+    </div>  -->
 
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
@@ -112,16 +120,6 @@ require_once 'includes/config.php';
             
             </div>
 
-
-
-
-
-
-
-
-
-
-
               <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">
               <center>
               <div class="card" style="width:16rem;">
@@ -172,9 +170,7 @@ require_once 'includes/config.php';
 
         
       </div>
-      <div class="full text-center mt-5 mb-3"> 
-        <button type="button" class="btn btn-danger btn-danger1 text-uppercase text-center">More Movies</button>
-        </div>
+     
     </div>
   </div>
 </section>
@@ -208,15 +204,21 @@ require_once 'includes/config.php';
           </div>
         </div>
       </div>
-      <div class="full text-center mt-5 mb-5"> <a href="videos">
-        <button type="button" class="btn btn-danger btn-danger1 text-uppercase text-center">More video</button>
-        </a> </div>
+      <div class="full text-center mt-5 mb-5"> 
+        <button type="button" class="btn btn-danger btn-danger1 text-uppercase text-center" onclick="window.location.href='videos'">More video</button>
+
+
+        <img src="./images/poster/dark.jpg" alt="" style="width:100%;margin:50px 0 0 0;">
+      
+      
+      
+      </div>
     </div>
   </div>
 </section>
 <!--end of video section--> 
 <!--news section-->
-<!-- <section>
+<!----- <section>
   <div class="full bg-white">
     <div class="mycontainer">
       <div class="full">

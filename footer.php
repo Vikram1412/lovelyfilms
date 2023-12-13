@@ -12,7 +12,7 @@
 							<!-- Footer Single Item -->
 							 <div class="col-lg-3 col-md-3 col-sm-12">
 								<div class="footer-single" style="padding-top: 20px;">
-									<h5 style="margin-left: 0px;">OVERVIEW</h5>
+									<h5 style="margin-left: 0px;text-transform:uppercase;">Follow us on social</h5>
 									<div class="stay-with-content">
 										<div class="col-md-3 col-sm-3" style="padding-left: inherit;padding-right: 280px;">
                       <div class="head-social dh-list">
@@ -38,7 +38,7 @@
 							<!-- Footer Single Item -->
 							<div class="col-lg-3 col-md-3 col-sm-12">
 								<div class="footer-single" style="padding-top: 20px;">
-									<h5 style="margin-left: 0px;">QUICK LINKS</h5>
+									<h5 style="margin-left: 0px; text-transform:uppercase;">QUICK LINKS</h5>
 									<div class="footer-menu">
 										<ul>
 											<li class="active"><a href="/">Home</a></li>
@@ -54,17 +54,17 @@
 							<!-- Footer Single Item -->
 							<div class="col-lg-6 col-md-6 col-sm-12">
 								<div class="footer-single" style="padding-top: 20px;">
-									<h5 style="margin-left: 0px;">QUICK CONTACT</h5>
+									<h5 style="margin-left: 0px;text-transform:uppercase;">Head Office Address </h5>
 									<div class="footer-menu">
 										<ul>
 											<li>
-												<p>M/s Lovely Films Pvt Ltd, 1405, Remi Commercio, opp. Yash Raj Studio, Industrial Area, Andheri (W), Mumbai, Maharashtra - 400053, India.</p>
+												<p><i class="fa fa-map-marker fa-2x" aria-hidden="true" ></i> M/s Lovely Films Pvt Ltd, 1405, Remi Commercio, opp. Yash Raj Studio, Industrial Area, Andheri (W), Mumbai, Maharashtra - 400053, India.</p>
 											</li>
 											<li>
-												<p>Phone :  +91-22-6708 0500</p>
+												<p><i class="fa fa-mobile fa-2x" aria-hidden="true"></i> +91-22-6708 0500</p>
 											</li>
 											<li>
-												<p>Email : info@lovelyfilms.in</p>
+												<p><i class="fa fa-envelope fa-lg"></i> info@lovelyfilms.in</p>
 											</li>
 										</ul>
 									</div>

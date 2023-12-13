@@ -8,6 +8,17 @@ include_once("includes/config.php");
    font-weight:600;
 }
 
+.submenus{
+
+          right: 234px !important;
+
+}
+
+@media (max-width:786px ){
+
+  .submenus{right:0px !important;}
+}
+
 .animation{
 
         animation: blinks 1000ms infinite;
@@ -16,7 +27,7 @@ include_once("includes/config.php");
 
 @keyframes blinks {
     
-        0%,20%{ color: #ff0000;text-shadow : 7px 0px 15px ##ff0000; }
+        0%,20%{ color: #ff0000;text-shadow : 7px 0px 15px #ff0000; }
         35%{color: #007bff;text-shadow : 7px 0px 15px #007bff;}
         80%{color: yellow; text-shadow : 7px 0px 15px yellow;}
         100%{color: orange; text-shadow : 7px 0px 15px orange;}
@@ -47,8 +58,8 @@ include_once("includes/config.php");
             <!-- <li><a href="news">News</a></li>
             <li><a href="investor">Investors</a></li> -->
 
-           <li class="mydown" ><a href="#">About</a>
-              <ul >
+           <li class="mydown"  ><a href="#">About</a>
+              <ul  class="submenus" style="">
                 <li><a href="who-we-are">Who we are ?</a></li>
               </ul>
             </li> 
@@ -80,7 +91,7 @@ include_once("includes/config.php");
              <!-- <li><a href="#">Press Release</a></li>
             <li><a href="register">Careers</a></li> -->
             
-            <li><a href="contact">Contact Us</a></li>
+           <!--  <li><a href="contact">Contact Us</a></li> -->
 
             <li><a href="new-upcoming-chandrayaan" class="animation"> New Upcoming Chandrayaan </a></li>
           </ul>
