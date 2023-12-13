@@ -204,6 +204,31 @@ require_once 'includes/config.php';
           </div>
         </div>
       </div>
+
+      <!-- <div class="full mt-5">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q8rIKgOtrOs" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qlmClaFoK_E" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VoG19ofl614" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zwa3eAAW18w" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div> -->
+
+
       <div class="full text-center mt-5 mb-5"> 
         <button type="button" class="btn btn-danger btn-danger1 text-uppercase text-center" onclick="window.location.href='videos'">More video</button>
 

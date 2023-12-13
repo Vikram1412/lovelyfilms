@@ -93,7 +93,7 @@ include_once("includes/config.php");
             
            <!--  <li><a href="contact">Contact Us</a></li> -->
 
-            <li><a href="new-upcoming-chandrayaan" class="animation"> New Upcoming Chandrayaan </a></li>
+            <li><a href="new-upcoming-chandrayaan" class="animation"> New Upcoming Film Chandrayaan </a></li>
           </ul>
 
 

@@ -1,5 +1,5 @@
 <?php
-require_once 'config/config.php';
+require_once '../includes/config.php';
 require_once 'functions/functions.php';
 $common->checkUser();
 if($_REQUEST['cur_pass'])

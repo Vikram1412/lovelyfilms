@@ -12,7 +12,7 @@
 							<!-- Footer Single Item -->
 							 <div class="col-lg-3 col-md-3 col-sm-12">
 								<div class="footer-single" style="padding-top: 20px;">
-									<h5 style="margin-left: 0px;text-transform:uppercase;">Follow us on social</h5>
+									<h5 style="margin-left: 0px;text-transform:uppercase;">Follow us on</h5>
 									<div class="stay-with-content">
 										<div class="col-md-3 col-sm-3" style="padding-left: inherit;padding-right: 280px;">
                       <div class="head-social dh-list">
