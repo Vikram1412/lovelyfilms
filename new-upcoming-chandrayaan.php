@@ -29,7 +29,6 @@ include('header.php');
     </div>
    
 </div>
-
 <!--video section-->
 <section>
   <div class="full " style="backgrond-color:#000; -webkit-background-color:#000; margin-top:100px;">
@@ -41,34 +40,34 @@ include('header.php');
       </div>
       <div class="row mt-5" >
 
+        <div class="col-md-12 col-sm-12 mt-5">
+            <!-- <img src="images\baneerpsd.gif" class="img-fluid" alt="Responsive image"> -->
+            <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image">
+            </div>
 
-        <div class="col-md-4"> 
 
-        <img src="images/chandrayaan/poster-2.png" alt="Chandrayan" style="width:100%;">
+
+        <div class="col-md-4 mt-5"> 
+        <center>
+        <img src="images/chandrayaan/poster-2.png" alt="Chandrayan" class="img-thumbnail">
         </div>
 
-        <div class="col-md-4"> 
-
-        <img src="images/chandrayaan/poster-1.png" alt="Chandrayan" style="width:100%;">
+        <div class="col-md-4 mt-5"> 
+        <center>
+        <img src="images/chandrayaan/poster-1.png" alt="Chandrayan" class="img-thumbnail">
+        </div>
+        
+        <div class="col-md-4 mt-5"> 
+        <center>
+        <img src="images/chandrayaan/poster-3.png" alt="Chandrayan" class="img-thumbnail">
         </div>
 
-        <div class="col-md-4"> 
-
-        <img src="images/chandrayaan/poster-3.png" alt="Chandrayan" style="width:100%;">
-        </div>
-
-         <br/><br/>
-          &nbsp;&nbsp;
-        <div class="col-md-12 "> 
-        <iframe width="100%" height="450" src="https://www.youtube.com/embed/1tBTi0dfv0E?si=W4bLiY4mcwp4ZRZf&amp;controls=0&amp;start=20" title="YouTube video player"
-           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+         
 		 
     </div>
     </div>
   </div>
 </section>
-<!--end of video section--> 
 
 <!--footer section-->
 <?php include('footer.php');?>

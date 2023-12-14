@@ -20,58 +20,73 @@ include('second-header.php');
 ?>
 
 
-<!--video section-->
+
 <section>
-  <div class="full " style="backgrond-color:#000; -webkit-background-color:#000;">
+  <div class="full mt-5" style="backgroud-color:#000; -webkit-backgroud-color:#000;">
     <div class="mycontainer">
       <div class="full mt-5">
-        <h1 class="text-uppercase text-center my-clr">video</h1>
+        <h1 class="text-uppercase text-center my-clr">videos</h1>
       </div>
-      <div class="full mt-5" style="margin-bottom: 80px;">
-		       <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qlmClaFoK_E" allowfullscreen></iframe>
-          </div>
-           <div class="full bg-white1" style="padding:10px; color:#ffffff; min-height: 60px;">
-          	<p>SETTERS | Official Teaser |</p>
-			   <!--<div class="full"><span class="float-left"><strong>Date of release</strong></span><span class="float-right"><strong>April 9</strong></span></div>-->
-          </div>
-        </div>
+      <div class="full mt-5">
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q8rIKgOtrOs" allowfullscreen></iframe>
           </div>
-          <div class="full bg-white1" style="padding:10px; color:#ffffff; min-height: 60px;">
-          	<p>SETTERS | Trailer </p>
-			 <!-- <div class="full"><span class="float-left"><strong>Date of release</strong></span><span class="float-right"><strong>April 11</strong></span></div>-->
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qlmClaFoK_E" allowfullscreen></iframe>
           </div>
         </div>
-   
-
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VoG19ofl614" allowfullscreen></iframe>
           </div>
-           <div class="full bg-white1" style="padding:10px; color:#ffffff; min-height: 60px;">
-          	<p>Kartootein | Song |</p>
-			<!--<div class="full"><span class="float-left"><strong>Date of release</strong></span><span class="float-right"><strong>April 19</strong></span></div>-->
-          </div>
         </div>
-		          <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Het6YIi_9H0" allowfullscreen></iframe>
           </div>
-           <div class="full bg-white1" style="padding:10px; color:#ffffff; min-height: 60px;">
-          	<p>Boom Jawani | Item song |</p>
-			   <!--<div class="full"><span class="float-left"><strong>Date of release</strong></span><span class="float-right"><strong>April 26</strong></span></div>-->
-          </div>
         </div>
       </div>
-     
+
+      <!-- <div class="full mt-5">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q8rIKgOtrOs" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qlmClaFoK_E" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VoG19ofl614" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zwa3eAAW18w" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div> -->
+
+
+      <div class="full text-center"> 
+    <!--     <button type="button" class="btn btn-danger btn-danger1 text-uppercase text-center" onclick="window.location.href='videos'">More video</button> -->
+
+
+        <img src="./images/poster/dark.jpg" alt="" style="width:100%;margin:50px 0 0 0;">
+      
+      
+      
+      </div>
     </div>
   </div>
 </section>
-<!--end of video section--> 
+
 
 <!--footer section-->
 <?php include('footer.php');?>

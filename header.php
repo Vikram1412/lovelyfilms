@@ -35,6 +35,20 @@ include_once("includes/config.php");
         
 }
 
+
+.underline{
+      border-bottom: 4px solid #f37021;
+    } 
+
+    .carousel-control-prev{
+            left: -4% !important;
+
+    }
+
+    .carousel-control-next{
+      right: -4% !important;
+    }
+
 </style>
 <nav>
   <div class="full forposition">
@@ -93,7 +107,7 @@ include_once("includes/config.php");
             
            <!--  <li><a href="contact">Contact Us</a></li> -->
 
-            <li><a href="new-upcoming-chandrayaan" class="animation"> New Upcoming Film Chandrayaan </a></li>
+            <li><a href="new-upcoming-chandrayaan" class="animation"> Upcoming Film Chandrayaan </a></li>
           </ul>
 
 
@@ -102,12 +116,9 @@ include_once("includes/config.php");
               <li><a href="https://twitter.com/LovelyFilmsProd" target="_blank"><i class="fa fa-twitter"></i></a></li>
               <!-- <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>-->
               <li><a href="https://www.youtube.com/channel/UCbATYHl-6-KM9jOSa0fzEPA" target="_blank"><i class="fa fa-youtube"></i></a></li>
-              <li><a href="https://www.instagram.com/LovelyFilmsProd/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            
+              <li><a href="https://www.instagram.com/lovelyfilms_prod/" target="_blank"><i class="fa fa-instagram"></i></a></li>
             </ul></div>
-			</div>
-        
-			
+			  </div>
         </div>
 		  
         <div class="col-md-3 col-sm-3 hidden-xs main-pad0 float-right mt-25-hide" style="max-width: 11%;">
@@ -122,7 +133,7 @@ include_once("includes/config.php");
               <li><a href="https://twitter.com/LovelyFilmsProd" target="_blank"><i class="fa fa-twitter"></i></a></li>
               <!-- <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>-->
               <li><a href="https://www.youtube.com/channel/UCbATYHl-6-KM9jOSa0fzEPA" target="_blank"><i class="fa fa-youtube"></i></a></li>
-               <li><a href="https://www.instagram.com/LovelyFilmsProd/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://www.instagram.com/lovelyfilms_prod" target="_blank"><i class="fa fa-instagram"></i></a></li>
             </ul>
            
           </div>

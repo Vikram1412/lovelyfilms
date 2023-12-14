@@ -32,20 +32,17 @@ require_once 'includes/config.php';
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
+
+
   <div class="carousel-inner">
+
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/banner/chandrayaan.png" alt="First slide">
+      <img class="d-block w-100" src="./images/chandrayaan/chandryaan-upcoming.jpg" alt="First slide">
     </div>
-
-     <div class="carousel-item">
-      <img class="d-block w-100" src="images/banner/lovelyfilms.png" alt="Second slide">
-    </div>
-
-    <!------
 
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/banner/lovelyfilms-prod.png" alt="Third slide">
-    </div> --> 
+      <img class="d-block w-100" src="images/banner/chandrayaan.png" alt="Third slide">
+    </div> 
 
 
   <!--   <div class="carousel-item">
@@ -65,125 +62,77 @@ require_once 'includes/config.php';
 
 
 <!-- /slider section -->
+<!-- start movie section -->
 
 
-<!--movies section-->
-<section>
-  <div class="full bg-dark">
-    <div class="mycontainer">
-      <div class="col-xs-12 float-left">
-        <nav class="tabnav">
-          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist"> <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Completed</a> <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">UP Coming</a> </div>
-        </nav>
-        <!-- <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-          <div class="tab-pane fade show active float-left" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-            <div class="full mt-5">
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/m1.png" alt="" title="" /></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/Na.png" alt="" title="" /> </div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/Na.png" alt="" title="" /> </div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/Na.png" alt="" title="" /> </div>
+ <section>
+   <div class="full bg-dark">
+     <div class="mycontainer">
+           <div class="full mt-5">
+             <h1 class="text-uppercase my-clr underline">Upcoming film Chandrayaan</h1>
             </div>
-          </div>
-          <div class="tab-pane fade float-left" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-            <div class="full mt-5">
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/Na.png" alt="" title="" /></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/Na.png" alt="" title="" /> </div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/Na.png" alt="" title="" /> </div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/Na.png" alt="" title="" /> </div>
-            </div>
-          </div>
-        </div> -->
+           <div class="row">
 
-        <style>
-          .card-body{padding: 0.25rem 1.25rem} 
-            h5.card-title { 
-                  font-size:1.05em;}
-
-                  .forimg b{color: #fff; }
-                  
-         
-
-        </style>
-
-        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-          <div class="tab-pane fade show active float-left" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-            <div class="full mt-1">
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">
-                <center>
-              <div class="card" style="width: 16rem;">
-              <img class="card-img-top" src="images/complete-films/court-kachehari.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">1. The Court Kachahri</h5>
-                
-              </div>
-            </div>
-            
+           <div class="col-md-12 col-sm-12 mt-5">
+            <!-- <img src="images\baneerpsd.gif" class="img-fluid" alt="Responsive image"> -->
+            <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image">
             </div>
 
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">
-              <center>
-              <div class="card" style="width:16rem;">
-              <img class="card-img-top" src="images/complete-films/setter-1.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title"> 2. Setters</h5>
-                
-                </div>
-                </div>
-            
-            
-              </div>
+           
 
-
-
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></div>
-            </div>
-            <!--<div class="full mt-5">
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/m1.png" alt="" title="" /></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/m3.png" alt="" title="" /> </div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/m5.png" alt="" title="" /> </div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"> <img src="images/m6.jpg" alt="" title="" /> </div>
-            </div>-->
-          </div>
-          <div class="tab-pane fade float-left" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-            <div class="full mt-5">
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"><b>1. Pahchan- The Genetic Code</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"><b>2. Notebandi-Demonetisation</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"><b>3. Mukhveer (The Informer)</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"><b>4. The MiddleMan</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"><b>5. Naukri</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"><b>6. Setters 2</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"><b>7. Belchhi</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"><b>8. Cinderella</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3"><b>9. Postmortem</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></div>
-              
-              <!--<div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">Tentative Title of Hindi Feature <b>Films "The Court Kachahri"</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">Tentative Title of Hindi Feature <b>Films "The Genetic Code"</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">Tentative Title of Hindi Feature <b>Films "Comming Soon.."</b></div>
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left forimg mb-3">Tentative Title of Hindi Feature <b>Films "Comming Soon.."</b></div>-->
-            </div>
-          </div>
-        </div>
-
-        
       </div>
-     
     </div>
-  </div>
-</section>
-<!--end of movies section--> 
+  </section>
+<!-- end movie section -->
+
+
+<!-- start Privies movie  -->
+<!-- <section>
+   <div class="full bg-dark">
+     <div class="mycontainer">
+          <div class="full mt-5">
+            <h1 class="text-uppercase my-clr underline " >Other Movies</h1>
+          </div>
+          
+            <div class="row">  row under first item -->
+
+<!--             <div class="col"> 
+            <img class="img-thumbnail" src="images\complete-films\setter-1.png" alt="First slide">
+            </div>
+
+            <div class="col"> 
+            <img class="img-thumbnail" src="images\courth-kachehari\court-3.jpg" alt="First slide">
+            </div>
+
+          </div>
+      </div>
+    </div>
+</section> --> 
+
+<!-- end  privious movie -->
+
+<!-- <section>
+   <div class="full bg-dark">
+     <div class="mycontainer">
+          <div class="full mt-5">
+            <h1 class="text-uppercase my-clr underline"  >****************************************************************************</h1>
+          </div>
+
+      </div>
+    </div>
+</section> -->
+
+
+
 
 <section>
-  <div class="full mt-5" style="backgroud-color:#000; -webkit-backgroud-color:#000;">
+  <div class="full" style="backgroud-color:#000; -webkit-backgroud-color:#000;">
     <div class="mycontainer">
-      <div class="full mt-5">
-        <h1 class="text-uppercase text-center my-clr">video</h1>
+      <div class="full ">
+        <!-- <h1 class="text-uppercase text-center my-clr">videos</h1> -->
       </div>
-      <div class="full mt-5">
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
+      <div class="full ">
+        <!-- <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q8rIKgOtrOs" allowfullscreen></iframe>
           </div>
@@ -203,7 +152,7 @@ require_once 'includes/config.php';
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Het6YIi_9H0" allowfullscreen></iframe>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- <div class="full mt-5">
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
@@ -229,8 +178,8 @@ require_once 'includes/config.php';
       </div> -->
 
 
-      <div class="full text-center mt-5 mb-5"> 
-        <button type="button" class="btn btn-danger btn-danger1 text-uppercase text-center" onclick="window.location.href='videos'">More video</button>
+      <!-- <div class="full text-center mt-5 mb-5"> 
+        <button type="button" class="btn btn-danger btn-danger1 text-uppercase text-center" onclick="window.location.href='videos'">More video</button> -->
 
 
         <img src="./images/poster/dark.jpg" alt="" style="width:100%;margin:50px 0 0 0;">
@@ -241,6 +190,7 @@ require_once 'includes/config.php';
     </div>
   </div>
 </section>
+
 <!--end of video section--> 
 <!--news section-->
 <!----- <section>
