@@ -37,17 +37,17 @@ require_once 'includes/config.php';
   <div class="carousel-inner">
 
     <div class="carousel-item active">
-      <img class="d-block w-100" src="./images/chandrayaan/chandryaan-upcoming.jpg" alt="First slide">
+      <img class="d-block w-100" src="images/chandrayaan/chandryaan-upcoming.jpg" alt="First slide">
     </div>
 
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/banner/chandrayaan.png" alt="Third slide">
+      <img class="d-block w-100" src="images\chandrayaan\chandryaan-upcoming-12.jpg" alt="Third slide">
     </div> 
 
 
-  <!--   <div class="carousel-item">
-      <img class="d-block w-100" src="images/slide3.png" alt="Third slide">
-    </div>  -->
+<div class="carousel-item">
+      <img class="d-block w-100" src="images/chandrayaan/court-kachahari.jpg" alt="Third slide">
+    </div> 
 
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
@@ -68,17 +68,16 @@ require_once 'includes/config.php';
  <section>
    <div class="full bg-dark">
      <div class="mycontainer">
-           <div class="full mt-5">
-             <h1 class="text-uppercase my-clr underline">Upcoming film Chandrayaan</h1>
-            </div>
+           <!-- <div class="full mt-5">
+             <h1 class="text-uppercase my-clr underline">Upcoming Film Chandrayaan</h1>
+            </div> -->
            <div class="row">
 
            <div class="col-md-12 col-sm-12 mt-5">
             <!-- <img src="images\baneerpsd.gif" class="img-fluid" alt="Responsive image"> -->
             <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image">
             </div>
-
-           
+            <div class="col-md-12 col-sm-12 mt-5"></div>
 
       </div>
     </div>
@@ -115,7 +114,7 @@ require_once 'includes/config.php';
    <div class="full bg-dark">
      <div class="mycontainer">
           <div class="full mt-5">
-            <h1 class="text-uppercase my-clr underline"  >****************************************************************************</h1>
+            <h1 class="text-uppercase my-clr underline">****************************************************************************</h1>
           </div>
 
       </div>
@@ -128,62 +127,46 @@ require_once 'includes/config.php';
 <section>
   <div class="full" style="backgroud-color:#000; -webkit-backgroud-color:#000;">
     <div class="mycontainer">
-      <div class="full ">
-        <!-- <h1 class="text-uppercase text-center my-clr">videos</h1> -->
+      <div class="full">
+      <h1 class="text-uppercase text-center my-clr">Lovely films Productions</h1>
       </div>
-      <div class="full ">
-        <!-- <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q8rIKgOtrOs" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qlmClaFoK_E" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VoG19ofl614" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Het6YIi_9H0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div> -->
-
-      <!-- <div class="full mt-5">
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q8rIKgOtrOs" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qlmClaFoK_E" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VoG19ofl614" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zwa3eAAW18w" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div> -->
-
-
-      <!-- <div class="full text-center mt-5 mb-5"> 
-        <button type="button" class="btn btn-danger btn-danger1 text-uppercase text-center" onclick="window.location.href='videos'">More video</button> -->
-
-
-        <img src="./images/poster/dark.jpg" alt="" style="width:100%;margin:50px 0 0 0;">
+      <div class="full"> 
+        
       
+      <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol> -->
+
+
+<!--   <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="./images/chandrayaan/chandryaan-upcoming-11.jpg" alt="First slide">
+    </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/banner/chandrayaan.jpg" alt="Third slide">
+    </div> 
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/chandrayaan/courtkachahary.jpg" alt="Third slide">
+    </div> 
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
+    <span class="carousel-control-prev-icon" aria-hidden="true" style="padding:15px;"></span>
+    <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true" style="padding:15px;"></span>
+    <span class="sr-only">Next</span>
+    </a>
+  </div> -->
+
+  
+  <img class="d-block w-100" src="./images/gif/productions-steps.gif" alt="First slide">
       
       
       </div>

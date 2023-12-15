@@ -114,6 +114,8 @@
 $('.mynav ul li').hover(
   function() {
 	  $('ul', this).stop().slideDown(200);
+
+    $("ul").css("right: 180px !important;");
   },
 	function() {
     $('ul', this).stop().slideUp(200);

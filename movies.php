@@ -22,22 +22,27 @@ include('second-header.php');
 ?>
 <!--video section-->
 <section>
-  <div class="full " style="backgrond-color:#000; -webkit-background-color:#000; margin-top:100px;">
+  <div class="full " style="backgrond-color:#000; -webkit-background-color:#000; margin-top:100px; ">
     <div class="mycontainer">
       <div class="full pt-2 p-2">
-        <h1 class="text-uppercase text-center my-clr p-2" style="background-color:#f37021;"> Upcoming Movie </h1>
+        <h1 class="text-uppercase text-center my-clr p-2" style="background-color:#f37021;border-radius: 8px 8px 0px 0px;"> Upcoming Movie </h1>
       </div>
       <div class="row">
         <div class="col-md-12 col-sm-12">
-            <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image">
+          <center>
+            <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image" style="width:98% ! important;">
             </div>
 
+          <div class="col-md-12 mt-2"> 
           <div class="full pt-2 p-2 mt-5">
-          <h1 class="text-uppercase text-center my-clr p-2" style="background-color:#f37021;"> Releasing soon </h1>
+            <div class="full">
+            <h1 class="text-uppercase text-center my-clr p-2" style="background-color:#f37021;border-radius: 8px 8px 0px 0px;"> Releasing soon </h1>
+            </div>
           </div>
+        </div>
 
           <div class="col-md-4 mt-2"> 
-            <center>
+          <center>
           <img src="images\courth-kachehari\court-3.jpg" alt="Chandrayan" class="img-thumbnail">
           </div>
 
@@ -52,12 +57,17 @@ include('second-header.php');
         </div>
       </div>
 
-
+    
       <div class="row">
-         
+        <div class="col-md-12 mt-2"> 
           <div class="full pt-2 p-2 mt-5">
-          <h1 class="text-uppercase text-center my-clr p-2" style="background-color:#f37021;"> Previous Movie </h1>
+            <div class="full">
+            <h1 class="text-uppercase text-center my-clr p-2" style="background-color:#f37021;border-radius: 8px 8px 0px 0px;"> Previous Movie </h1>
+            </div>
           </div>
+        </div>
+
+        
 
           <div class="col-md-4 mt-2"> 
           <center>
@@ -74,15 +84,6 @@ include('second-header.php');
          <img src="images\courth-kachehari\demo.png" alt="Chandrayan" class="img-thumbnail">
         </div>
       </div>
-
-
-
-
-
-
-
-
-
     </div>
   </div>
 </section>

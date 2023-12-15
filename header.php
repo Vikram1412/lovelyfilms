@@ -10,9 +10,10 @@ include_once("includes/config.php");
 
 .submenus{
 
-          right: 234px !important;
+          right: 224px !important;
 
 }
+
 
 @media (max-width:786px ){
 
@@ -65,7 +66,7 @@ include_once("includes/config.php");
             <li><a href="movies">Movies</a></li>
             <li><a href="videos">Videos</a></li>
             <li class="mydown"><a href="#">Sevices</a>
-              <ul >
+              <ul class="submenuss">
                 <li><a href="marketing">Marketing & Distribution</a></li>
               </ul>
             </li>
@@ -75,13 +76,10 @@ include_once("includes/config.php");
            <li class="mydown"  ><a href="#">About</a>
               <ul  class="submenus" style="">
                 <li><a href="who-we-are">Who we are ?</a></li>
+                <li><a href="team">Our Leadership Team </a></li>
               </ul>
             </li> 
 
-            <li><a href="team">Our Team</a></li>
-
-             <!-- <li><a href="#">ROI</a></li>  -->
-             
              <!--<li><a href="#">Making</a></li>-->
     
              <!--<li class="mydown"><a href="#">Making</a>
