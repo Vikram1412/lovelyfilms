@@ -50,6 +50,51 @@ include_once("includes/config.php");
       right: -4% !important;
     }
 
+.img-thumbnail{
+            opacity:0.8;transform:scale(1);
+
+            cursor: pointer;
+            -webkit-cursor: pointer;
+            -ms-cursor: pointer;
+            -moz-cursor: pointer;
+            -o-cursor: pointer;
+              }
+
+  .img-thumbnail:hover{
+    opacity:1.5;
+    -o-opacity:1.5;
+    -webkit-opacity:1.5;
+    -ms-opacity:1.5;
+    -moz-opacity:1.5;
+    
+    transform:scale(1.01);
+    -webkit-transform:scale(1.01);
+    -moz-transform:scale(1.01);
+    -ms-transform:scale(1.01);
+    -o-transform:scale(1.01);
+
+    transition:all 500ms ease-out;
+    -webkit-transform:scale(1.01);
+    -ms-transform:scale(1.01);
+    -moz-transform:scale(1.01);
+    -o-transform:scale(1.01);
+
+  }
+
+  .my-clr{
+    background-image:url('images/bg-head.jpg');
+    background-image: url(images/bg-head.jpg);
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+  
+  }
+
+
+  .grays{color:#b9afafbd !important ;}
+  
 </style>
 <nav>
   <div class="full forposition">
@@ -105,7 +150,7 @@ include_once("includes/config.php");
             
            <!--  <li><a href="contact">Contact Us</a></li> -->
 
-            <li><a href="new-upcoming-chandrayaan" class="animation"> Upcoming Film Chandrayaan </a></li>
+            <li><a href="new-upcoming-chandrayaan" > Upcoming Film <span class="animation">Chandrayaan</span></a></li>
           </ul>
 
 

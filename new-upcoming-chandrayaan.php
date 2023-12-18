@@ -19,24 +19,30 @@ include('header.php');
 
 ?>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div class="container-flud">
+      <img class="d-block w-100 " src="images/tab/header.jpg" alt="First slide">
+
+      <h1 style="position:absolute;top: 30%;
+    left: 35%;text-align:center:" > Chandrayaan </h1>
+</div>
+
+<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/tab/chandrayan-11.png" alt="First slide" style="height:20%;">
+      <img class="d-block w-100 " src="images/tab/header.jpg" alt="First slide">
     </div>
 
     </div>
    
-</div>
+</div> -->
+
 <!--video section-->
 <section>
-  <div class="full " style="backgrond-color:#000; -webkit-background-color:#000; margin-top:100px;">
+  <div class="full" style="backgrond-color:#000; -webkit-background-color:#000; margin-top:40px;">
     <div class="mycontainer">
-      <div class="full pt-2 p-2">
-        <h1 class="text-uppercase text-center my-clr p-2">Chandrayan</h1>
-
-
+      <div class="full p-2">
+  <!--       <h1 class="text-uppercase text-center my-clr p-2">Chandrayan</h1> -->
       </div>
       <div class="row mt-5" >
 

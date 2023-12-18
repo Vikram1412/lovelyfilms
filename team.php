@@ -24,7 +24,12 @@ include('second-header.php');
     margin-top: 0;
     margin-bottom: 0.75rem;
     text-align: justify;
-    
+    font-size:16px;
+    font-weight:100;
+  
+    letter-spacing: 1px;
+    line-height: 1.4;
+    }
     .row {
         display: -ms-flexbox;
         display: flex;
@@ -33,127 +38,72 @@ include('second-header.php');
         margin-right: 0px;
         margin-left: 0px;
     }
-}
-    
-</style>
+.rounded{border:1px solid #b2b2b2; box-shadow:0px 0px 10px 2px #b2b2b2;}
 
+    h4{    font-family: "HelveticaNeue-Condensed.otf";letter-spacing: 1px; }
+
+</style>
 <section>
-  <div class="full bg-white" >
+  <div class="full grays" style="background-color:#000;-webkit-background-color:#000; -ms-background-color:#000; -moz-background-color:#000;" >
     <div class="container">
       <div class="full">
-        <h1 class="text-uppercase text-center mt-my" style="margin-top: 35px;">Our Leadership Team</h1>
+        <h1 class="text-uppercase text-center mt-my my-clr" >Our Leadership Team</h1>
       </div>
       <div class="full mt-5">
 
-      <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg" style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <img src="images/team/mr-alok.jpg" alt="" title="" ></div>
-			    <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-             <h4>Mr. Alok Gupta (Producer)</h4>
-
-           <p> Experienced NRI banker with over two decades in global financial services. Renowned risk and transformation expert, excelling in strategic metamorphosis. Recognized luminary of leadership, known for punctual delivery and exceptional analytical prowess. Proactive problem-solver with a strong network of industry relationships. </p>
-
-
-          </div>
-        </div>
-
-        <div class="full mb-5" style="border:solid 1px #b2b2b2;">
+      <div class="full mt-2 mb-5 rounded">
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg" style="margin-top: 0px; padding:0px 0px 0px 0px;">
           <img src="images/team/mr-arun.jpg" alt="" title="" ></div>
 			    <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
              <h4>Mr. Arun Kumar (Producer and Story Writer) </h4>
 
-           <!--  <p> Mr. Arun Kumar is an IIT Kanpur alumnus, who served as a well-known Project Manager for several corporations while winning accolades and awards for work throughout his stellar career. Through the years he has gained expertise in giving end to end solutions to institutions/govt. bodies for conducting online and offline examinations. The online examination systems included Delhi University, IIT Kanpur, Orchid LAB in the USA among other prestigious institutions. From a President to Project Manager his experience has allowed him to partner with organizations to handle projects of varying capacity. </p> -->
+           <p> 
+            
+           Meet Mr. Arun Kumar, an influential IIT Kanpur alumnus and visionary leader reshaping the film production landscape as the founder of Lovely Films. With a fervor for storytelling and an unwavering commitment to excellence, he has produced industry-defining movies, inviting investors to join his journey for substantial returns and a share in the next blockbuster's success. Beyond his film ventures, Mr. Kumar boasts a successful career as a Project Manager, garnering acclaim for end-to-end solutions in examinations. Actively involved in the cutting-edge start-up Deep Vein, registered in Delaware, USA, he spearheads groundbreaking advancements in Medical Science, collaborating with prestigious institutions globally to address Deep Vein Thrombosis (DVT) and potentially save countless lives.
 
-           <p> IIT Kanpur alumnus and founder of Lovely Films, a visionary leader transforming the film production landscape. Produces impactful movies, inviting investors to join his journey for substantial returns. Also an accomplished Project Manager, providing end-to-end solutions for examinations. Actively engaged in the cutting-edge start-up, Deep Vein, focusing on revolutionary advancements in Medical Science. </p>
+
+           </p>
 
 
           </div>
         </div>
-          <div class="full mb-5" style="border:solid 1px #b2b2b2;">
+      
+      <div class="full mb-5  border rounded" >
+          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg" style="margin-top: 0px; padding:0px 0px 0px 0px;">
+          <img src="images/team/mr-alok.jpg" alt="" title="" >
+          </div>
+
+			    <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
+             <h4>Mr. Alok Gupta (Producer)</h4>
+
+           <p>  Film enthusiast and seasoned NRI banker, Mr. Alok Gupta, brings over two decades of global banking expertise, excelling in risk management and strategic transformations. Recognized as a leadership luminary, his proficiency spans banking operations, risk mitigation, and stakeholder relationship-building. An alumnus of IIT Kanpur and IIM Ahmedabad, he holds charterships with CFA Institute USA, GARP USA, and ICA UK, showcasing a blend of engineering prowess and strategic acuity that underpins his success in the financial realm.
+
+           </p>
+          </div>
+
+        </div>
+          <div class="full mb-5 border rounded">
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
           <img src="images/team/mr-navneet.jpg" alt="" title="" ></div>
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mr. Navneet Maheshwari (Mentor & Co. Producer )</h4>
-            <!-- <p>Mr. Navneet Maheshwari is an alumnus of IIT Kanpur and IIT Delhi, have worked with several MNCs and PSUs in India and abroad. He has more than 15 years experience in Software Development and Structural Engineering along with his brother Mr. Narayan (an Alumnus of IIT BHU). He is playing an active role in mentoring Lovely films private limited projects.</p> -->
-           <p>Visionary leader in precast concrete manufacturing with a strong background from IIT Kanpur and IIT Delhi. Revolutionizing the construction industry with expertise in structural engineering. Successfully contributed to prestigious projects, championing sustainability and organic farming for a greener world.</p> 
+            <h4>Mr. Navneet Maheshwari (Co-producer & Mentor)</h4>
+          
+           <p>Embark on an exciting venture into precast concrete manufacturing with Mr. Navneet Maheshwari, a visionary leader and structural engineering expert educated at IIT Kanpur and IIT Delhi. Revolutionizing the construction industry, he has led prestigious projects such as the Kanpur metro, Jal Jeevam mission, Namami Gange, Railways, and private ventures. Beyond his construction prowess, Mr. Maheshwari is a champion of environmental preservation and sustainable living, passionately advocating for organic farming. His educational journey includes a Bachelor's degree in Civil Engineering from IIT Kanpur and a Master's degree in Structural Engineering from IIT Delhi, laying the foundation for his remarkable career.</p> 
           </div>
         </div>
        
-
-
-         <div class="full mb-5" style="border:solid 1px #b2b2b2;">
+         <div class="full mb-5 border rounded" >
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
           <img src="images/team/mr-nitish.jpg" alt="" title="" ></div>
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4> Mr. Nitish Kumar Ranjan (Mentor) </h4>
+            <h4> Mr. Nitish Kumar Ranjan (Script writer & Lyricist) </h4>
             <p>
-              Versatile IITian excelling in songwriting, poetry, and scriptwriting. Craftsperson of impactful lyrics, collaborates seamlessly with artists across genres. National Award recipient for Outstanding Service in 2013. Successful composer for various artists, bands, short films, and solo works. Senior Officer in the Indian Railway Service of Engineer (IRSE) Cadre, demonstrating dedication and leadership. Published poet with a book capturing readers with lyrical prowess.
+            Meet an exceptional IITian proficient in songwriting, poetry, and scriptwriting, seamlessly crafting impactful lyrics across genres. Armed with a strong grasp of storytelling and emotions, our candidate's engaging compositions reflect a commitment to excellence. Holding a degree in Civil Engineering from IIT Kanpur, coupled with a National Award for Outstanding Service in 2013, he combines creative prowess with a successful career, having written for various artists, bands, and solo projects. Additionally, his published book of poetry attests to his captivating lyrical prowess. Beyond the creative realm, he serves as a dedicated Senior Officer in the Indian Railway Service of Engineers (IRSE) Cadre, embodying leadership and commitment in his professional life.
               </p>
           </div>
         </div> 
         
-  <!--   <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/Neelam.png" alt="" title="" style="height1: 176px;"></div>
-          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Neelam Agarwal, PhD, CRC (Mentor)</h4>
-            <p>Dr. Agarwal is an certified counselor, professional educator, advocate, resource consultant and trainer in the field of education, disability & technology for individuals, families, and organizations. </p>
-          </div>
-        </div>  -->
-        
-       
-        <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/Vinod.png" alt="" title="" style="height1: 176px;"></div>
-          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Dr. Vinod Kumar (Mentor)</h4>
-            <p>Dr. Kumar is an IIT Kanpur Alumnus, who is engaged in research goal is to develop and integrate cutting-edge computational tools for complex engineering and science challenges by leveraging Exascale/High Performance Computing (HPC), machine learning and artificial intelligence, data analytics/bigdata concepts, Uncertainty Quantification (UQ), and leading-edge computational capabilities. His research group has focused on real-life and fundamental thermal-fluid applications coupled with crosscutting domains such as structure dynamics, solid mechanics, biomedical engineering, hypersonic.<!--  The group uses Computational Fluid Dynamics (CFD) and Fluid-Structure Interactions (FSI) with HPC algorithms on massively parallel supercomputers. Research activities include multiple interdisciplinary projects including developing flow conductance model porous core at pore level for CO2 sequestration, studying effects nanoparticles/coatings on thermal energy storage systems in Concentrating Solar Power (CSP) system, and FSI analysis Deep Venous Thrombosis (DVT), CFD-Discrete Element Modeling (CFD-DEM)/Multiphase Simulations, laser propagation characterization for Air Force Remote Sensing/Directed Energy applications, exascale computing, biomass gasification, long-term weather forecast, turbulence modeling, and FSI analysis of flexible membranes. Currently, He is associate Professor at University of Texas, El Paso (USA) in Mechanical Engineering. --></p>
-          </div>
-        </div>
-        
-        <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/santosh.png" alt="" title="" ></div>
-          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mr. Santosh Jha (Mentor)</h4>
-            <p>Mr. Santosh Kumar Jha is an alumnus of IIT Kanpur, have  worked with several MNCs in India and abroad. He has more than 15 years experience in IT area. He is playing an active role in mentoring Lovely films private limited projects.</p>
-          </div>
-        </div>
-        
-        <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/Harsh.jpg" alt="" title="" style="height1: 224px;"></div>
-          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mr. Harsh Agrawal (CA)</h4>
-            <p>Mr. Harsh Agrawal is an alumnus of The Institute of Chartered Accountants of India (ICAI), He has more than 12 years of experience in managing overall finance of the company and financial planning & management, procedures and controls, maintenance & finalization of accounts, working capital management, profitability monitoring, capital restructuring, project implementation and building internal financial controls. Possess remarkable tract record of meeting assigned targets in an efficient and effective manner, dealing with internal and external customers. Competent problem-solver proven capabilities of working dynamic teams in a fast-paced environment. He is playing an active role in mentoring Lovely films private limited projects.</p>
-          </div>
-        </div>
-        
-        <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <!-- <img src="images/sunder.png" alt="" title="" style="height: 176px;"> -->
-          <div style="color:#fff;background-color:gray; width:180px;hieght:190px;padding:60px;">
-          Photo</div>
-        
-      
-        
-        </div>
-          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mr. Narayan Maheshwari (IT Head Manager)</h4>
-            <p>
-            Mr. Narayan Maheshwari, brings a wealth of experience and expertise to the film industry. As the founder and Director of KratiTech, an IT and Marketing Company, he has successfully led the organization for over seven years, transforming it from a two-person operation to a thriving enterprise with a team of over 60 talented individuals.
-
-
-            </p>
-          </div>
-        </div>
-        
-        <!-- <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/bhusan.jpg" alt="" title="" style="height1: 176px;"></div>
-            <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-                <h4>Mr. Bhushan Paswan (Director) </h4>
-                <p>Mr. Bhushan Paswan worked with MNC in IT services. He is also a keen film buff who is going to assist in the Institute and production house.</p>
-            </div>
-        </div> -->
-        
-        <div class="full mb-5" style="border:solid 1px #b2b2b2;">
+        <div class="full mb-5 border rounded" >
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
           <img src="images/team/mr-mahendra.png" alt="" title="" style="height1: 176px;"></div>
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
@@ -161,59 +111,54 @@ include('second-header.php');
             <p>Mr. Mahender Kumar is Joint Director DRDO (Retired), has a long experience in social and HR management and is a renowned Astrologer and Vaastu expert.  He is a lead Mentor and consultant and provided valuable inputs for our earlier film Setters.</p>
           </div>
         </div>
-
-        <!-- <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/suman.jpeg" alt="" title="" style="height1: 176px;"></div>
-          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mrs. Suman Batra (Guide and Mentor)</h4>
-            <p>Mrs. Suman Batra, is a Delhi University alumnus and has a long experience in the field of social work for Girl child empowerment through NGO. She is multi-talented personality and is a good mentor and leader.</p>
-          </div>
-        </div> -->
-
-        <!-- <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/rajnish.jpg" alt="" title="" style="height1: 176px;"></div>
-          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mr. Rajnish Jaiswal (Director of Lovely Films)</h4>
-            <p>Mr. Rajnish Jaiswal is a film Director of Indian Origin. He is associated with Hindi film Chakallaspur (2017) starting Padmaja Roy, Urmila Mahanta, and Mukesh Manas. At present, he is associated with Lovely Films Private Limited and directing Film titled “Court Kachahari”</p>
-          </div>
-        </div> -->
-
-       <!--  <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/aftab.jpg" alt="" title="" style="height1: 176px;"></div>
-          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mr. Aftab Siddiqui (IT Head)</h4>
-            <p>Mr. Aftab Siddiqui is senior Information Technology Manager in the company and has broad-based expertise in strategic business planning, project and service management, and staff leadership and development to achieve both corporate and client objectives.</p>
-          </div>
-        </div> -->
         
-        <!-- <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/Satish.jpeg" alt="" title="" style="height1: 176px;"></div>
+        <div class="full mb-5 border rounded" >
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
+            <img src="images/team/mr-vinod.jpg" alt="" title="" ></div>
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mr. Satish Kumar (Company Secretary & Compliance Officer)</h4>
-            <p>Mr. Satish Kumar is an alumnus of Delhi University, have worked with several Production Houses in Mumbai and Delhi. He has more than 05 years experience in Handling Finance and Accounts on behalf of the company. He was executive producer of recent completed Hindi feature films “Court Kachahri”. He has play active role in Controlling Finance on behalf of the company while new projects landed on the floor and in post-production. </p>
+            <h4>Dr. Vinod Kumar (Mentor)</h4>
+            <p>Dr. Kumar is an IIT Kanpur Alumnus, who is engaged in research goal is to develop and integrate cutting-edge computational tools for complex engineering and science challenges by leveraging Exascale/High Performance Computing (HPC), machine learning and artificial intelligence, data analytics/bigdata concepts, Uncertainty Quantification (UQ), and leading-edge computational capabilities. His research group has focused on real-life and fundamental thermal-fluid applications coupled with crosscutting domains such as structure dynamics, solid mechanics, biomedical engineering, hypersonic.</p>
           </div>
-        </div> -->
+        </div>
         
-        <!-- <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/Agyaram.jpg" alt="" title=""  style="height1: 176px;"></div>
+    
+        
+        <div class="full mb-5 border rounded" style="border:solid 1px #b2b2b2;">
+          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/Harsh.jpg" alt="" title="" style="height1: 224px;"></div>
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mr. Agya Ram Verma (Vice President cum Executive Producer)</h4>
-            <p>Mr. Agya Ram Verma is an employee of the company since 2018, he has worked with several Production Houses in Mumbai and Delhi. He has more than 25 years of experience in production team on behalf of the company. Currently he is in dual charge of Vice Precedent and an Executive producer of the company. </p>
+            <h4>Mr. Harsh Agrawal (Finance Head)</h4>
+            <p>Mr. Harsh Agrawal is an alumnus of The Institute of Chartered Accountants of India (ICAI), He has more than 12 years of experience in managing overall finance of the company and financial planning & management, procedures and controls, maintenance & finalization of accounts, working capital management, profitability monitoring, capital restructuring, project implementation and building internal financial controls. Possess remarkable tract record of meeting assigned targets in an efficient and effective manner, dealing with internal and external customers. Competent problem-solver proven capabilities of working dynamic teams in a fast-paced environment. He is playing an active role in mentoring Lovely films private limited projects.</p>
           </div>
-        </div> -->
+        </div>
+
+
         
-        <!-- <div class="full mb-5" style="border:solid 1px #b2b2b2;">
-            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/vikash.png" alt="" title="" style="height1: 176px;"></div>
-            <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mr. Vikash Mani (Ex-Director of Lovely Films)</h4>
-            <p>Mr. Vikash Mani was associated with films “Setters” since 2018. He was creative writer cum producer of the films on behalf of the company. The film setters were released on May 03, 2019 worldwide in association with the NH Studio.</p>
-            </div>
-        </div> -->
+        <div class="full mb-5 border rounded">
+          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
+          <img src="images/team/mr-narayan.jpg" alt="Narayan Maheshwari" title="Narayan Maheshwari" > 
+          </div>
+
+          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
+            <h4>Mr. Narayan Maheshwari (IT Head)</h4>
+            <p>
+            Esteemed IIT-BHU alumnus Mr. Narayan Maheshwari, holding an MBA from MDI-Gurgaon, contributes vast experience and expertise to the film industry. As the founder and Director of KratiTech, an IT and Marketing Company, he has demonstrated effective leadership, guiding the organization successfully for over eight years.
+            </p>
+          </div>
+        </div>
+  
+        <div class="full mb-5 border rounded" >
+          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
+          <img src="images/team/mr-santosh.jpg" alt="santosh" title="santosh" ></div>
+          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
+            <h4>Mr. Santosh Jha (Mentor)</h4>
+            <p>Mr. Santosh Kumar Jha is an alumnus of IIT Kanpur, have  worked with several MNCs in India and abroad. He has more than 15 years experience in IT area. He is playing an active role in mentoring Lovely films private limited projects.</p>
+          </div>
+        </div>
+
+       
     </div>
   </div>
 </section>
-
-<?php include('footer.php');?>
 
 </body>
 </html>

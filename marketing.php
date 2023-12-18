@@ -20,22 +20,23 @@ include('header.php');
 include('second-header.php');
 ?>
 
-
+  
 <!--video section-->
 <section>
-  <div class="full bg-vision" >
+  <div class="full"  style>
     <div class="container">
-       <div class="full ">
+    <div class="full ">
     <h1 class="text-uppercase text-center mt-5 my-clr">Marketing & Distribution</h1>
 		</div>
-      <div class="full left mb-5">
+      <div class="full left mb-5 mt-5 grays">
      
-       <p class="forpra left">A combination of the best of traditional distribution with the most ground-breaking in digital & Internet distribution in a fusion distribution model:</p>
+       <p class="forpra left  mt-2 grays">A combination of the best of traditional distribution with the most ground-breaking in digital & Internet distribution in a fusion distribution model:</p>
         
-          <div class="col-xl-8 float-left mt-3">
-          <div class="row">
-               <h4 class="full mb-3" style="color:#ffffff;">Guaranteed worldwide distribution</h4>
-            <ul class="full mb-4" style="color:#ffffff;">
+          <div class="col-xl-8 float-left mt-3 ">
+          <div class="container">
+             <div class="row">
+               <h4 class="full mb-3 grays">Guaranteed worldwide distribution</h4>
+              <ul class="full mb-4 grays" >
               <li>International representation at all important markets: UAE, China, Hong Kong, Toronto etc.</li>
               <li>Your movie will be shown to all the buyers in our database.</li>
               <li>It will be personally pitched and presented to all interested buyers at all the markets.</li>
@@ -44,9 +45,9 @@ include('second-header.php');
               <li>Your movie will be branded right along with the high quality movies House of Film is showcasing.</li>
               <li>Worldwide Representation – traditional and non-traditional</li>
               <li>Content Management.</li>
-            </ul>
-            <h4 class="full mb-3" style="color:#ffffff;">Marketing:</h4>
-            <ul class="full mb-4" style="color:#ffffff;">
+               </ul>
+               <h4 class="full mb-3 grays" >Marketing:</h4>
+              <ul class="full mb-4 grays" >
               <li>Business-to-business and business-to-customer viral marketing</li>
               <li>Social media marketing</li>
               <li>PR and alternative marketing solutions</li>
@@ -57,9 +58,9 @@ include('second-header.php');
               <li>Overseeing the development process</li>
               <li>B2B marketing & market representation</li>
               <li>Sales projections by territory & segment</li>
-            </ul>
+              </ul>
            
-     
+            </div>
           </div>
         </div>
       </div>

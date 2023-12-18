@@ -82,7 +82,7 @@
 							<div class="footer-bottom">
 								
 								<div class="footer-left">
-									<p> Copyright © 2022 LovelyFilms Pvt. Ltd.</p>
+									<p> Copyright © 2022 - <?php echo date("Y"); ?> LovelyFilms Pvt. Ltd.</p>
 								</div>
 								<!-- <div class="col-md-3 col-sm-3 hidden-xs main-pad0 float-right mt-10-hide">
                   <div class="head-social dh-list pull-right mt15 m24-mob fl-main">
@@ -101,8 +101,7 @@
 				<!-- Footer Bottom Area End -->
 			</footer>
 
-
-<script type="text/javascript">
+  <script type="text/javascript">
 	
 /*$(document).ready(function(){
 	$(".mynav ul li").hover(function(){

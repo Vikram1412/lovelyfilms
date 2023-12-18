@@ -37,32 +37,34 @@ require_once 'includes/config.php';
   <div class="carousel-inner">
 
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/chandrayaan/chandryaan-upcoming.jpg" alt="First slide">
+      <img class="d-block w-100" src="images/chandrayaan/chandryaan-upcoming-1.jpg" alt="First slide">
     </div>
 
     <div class="carousel-item">
-      <img class="d-block w-100" src="images\chandrayaan\chandryaan-upcoming-12.jpg" alt="Third slide">
+      <img class="d-block w-100" src="images/chandrayaan/chandrayaan-banner-2.jpg" alt="Third slide">
     </div> 
 
 
-<div class="carousel-item">
+    <div class="carousel-item">
       <img class="d-block w-100" src="images/chandrayaan/court-kachahari.jpg" alt="Third slide">
     </div> 
 
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
-    <span class="carousel-control-prev-icon" aria-hidden="true" style="padding:15px;"></span>
-    <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true" style="padding:15px;"></span>
-    <span class="sr-only">Next</span>
-    </a>
+     </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
+      <span class="carousel-control-prev-icon" aria-hidden="true" style="padding:15px;"></span>
+      <span class="sr-only">Previous</span>
+     </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true" style="padding:15px;"></span>
+      <span class="sr-only">Next</span>
+      </a>
 </div>
 
 
 <!-- /slider section -->
 <!-- start movie section -->
+
 
 
  <section>
@@ -73,11 +75,12 @@ require_once 'includes/config.php';
             </div> -->
            <div class="row">
 
-           <div class="col-md-12 col-sm-12 mt-5">
-            <!-- <img src="images\baneerpsd.gif" class="img-fluid" alt="Responsive image"> -->
-            <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image">
+            <div class="col-md-12 col-sm-12 mt-5">
+             <!-- <img src="images\baneerpsd.gif" class="img-fluid" alt="Responsive image"> -->
+              <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image">
+             </div>
+              <div class="col-md-12 col-sm-12 mt-5"></div>
             </div>
-            <div class="col-md-12 col-sm-12 mt-5"></div>
 
       </div>
     </div>
@@ -113,22 +116,89 @@ require_once 'includes/config.php';
 <!-- <section>
    <div class="full bg-dark">
      <div class="mycontainer">
-          <div class="full mt-5">
-            <h1 class="text-uppercase my-clr underline">****************************************************************************</h1>
+
+
+
+
+     <h1 class="text-uppercase my-clr underline">****************************************************************************</h1>
           </div>
 
       </div>
     </div>
 </section> -->
 
+<!-- success story  -->
+
+<section>
+<div class="mycontainer ">
+  <div class="full mt-5">
+  <h1 class="text-center text-uppercase my-clr underline">Success Story</h1>
+  <div class="row">
+  <div class="col-md-6"><!-- column one -->
+    <h3 style="font-style:italic;color:#999;padding: 0 10px 0 10px;">Setters Story</h3>
+    <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
+    Setters is a films which aim are how to  break the Chains of Education Mafias" is a compelling tale of resilience, justice, and the power of individuals to challenge and overcome systemic corruption. Maya's journey from a student with a dream to a catalyst for change serves as a testament to the transformative impact of education when liberated from the clutches of corruption.
+    </p>
+    <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
+    In the bustling city of Academia, education is a commodity controlled by ruthless mafias that manipulate grades, exploit vulnerable students, and maintain a vice-like grip on academic institutions. Enter Maya Sharma, a bright and ambitious student from a humble background who dreams of breaking free from the shackles of her circumstances through education.
+    </p>
+    <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
+Maya's world is turned upside down when her best friend, Aryan, becomes a victim of the education mafias. Unable to bear witness to the injustice around her, Maya decides to take matters into her own hands. Armed with her intelligence, determination, and a deep sense of justice, she embarks on a mission to dismantle the education mafias and bring about positive change.
+</p>
+<p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
+As Maya digs deeper, she uncovers a web of corruption that extends far beyond the classroom. The mafias have infiltrated every aspect of the education system, from teachers to administrators, creating a culture of fear and silence. Undeterred, Maya gains support from like-minded individuals, forming an underground network committed to exposing the truth.
+</p>
+<p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
+Facing numerous challenges and threats, Maya employs her strategic mind and resourcefulness to gather evidence against the mafias. Along the way, she discovers unexpected allies among teachers and administrators who have long been silenced by the corrupt system. Together, they form a formidable force determined to reclaim the integrity of education.
+</p>
+<!-- <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
+As Maya's story gains traction, it sparks a city-wide movement against the education mafias. Students, teachers, and parents join forces to demand transparency, accountability, and fairness in education. The mafias, feeling the pressure, resort to desperate measures to protect their empire, leading to intense confrontations and suspenseful moments.
+</p> -->
+
+  </div> <!-- coloumn one -->
+
+  <div class="col-md-6"> <!-- column second  -->
+  <!-- <h1 class="text-center text-uppercase"> Setters </h1> -->
+
+  <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+    <center>
+      <img class="d-block " src="images\setter\setters-12.jpg" alt="First slide">
+    </div>
+
+    <div class="carousel-item">
+    <center>
+      <img class="d-block " src="images\setter\certificate.jpg" alt="Third slide">
+    </div> 
+
+
+   <div class="carousel-item">
+    <center>
+      <img class="d-block  " src="images\setter\setters-anupam.jpg" alt="Third slide">
+    </div> 
+
+     </div>
+
+    
+  </div>
+  </div> <!-- / column second -->
+</div> <!-- row -->
+</div>
+</section>
+<!--end of news section--> 
+
+<!-- /success story -->
 
 
 
 <section>
-  <div class="full" style="backgroud-color:#000; -webkit-backgroud-color:#000;">
+  <div class="full mt-5" style="backgroud-color:#000; -webkit-backgroud-color:#000;">
     <div class="mycontainer">
       <div class="full">
-      <h1 class="text-uppercase text-center my-clr">Lovely films Productions</h1>
+      <h1 class="text-uppercase text-center my-clr">Lovely films Pvt Ltd</h1>
       </div>
       <div class="full"> 
         
@@ -141,94 +211,37 @@ require_once 'includes/config.php';
       </ol> -->
 
 
-<!--   <div class="carousel-inner">
-    <div class="carousel-item active">
+       <!--   <div class="carousel-inner">
+       <div class="carousel-item active">
       <img class="d-block w-100" src="./images/chandrayaan/chandryaan-upcoming-11.jpg" alt="First slide">
-    </div>
+       </div>
 
-    <div class="carousel-item">
+       <div class="carousel-item">
       <img class="d-block w-100" src="images/banner/chandrayaan.jpg" alt="Third slide">
-    </div> 
+      </div> 
 
-    <div class="carousel-item">
+      <div class="carousel-item">
       <img class="d-block w-100" src="images/chandrayaan/courtkachahary.jpg" alt="Third slide">
-    </div> 
+      </div> 
 
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
-    <span class="carousel-control-prev-icon" aria-hidden="true" style="padding:15px;"></span>
-    <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true" style="padding:15px;"></span>
-    <span class="sr-only">Next</span>
-    </a>
-  </div> -->
+        </div>
+         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
+        <span class="carousel-control-prev-icon" aria-hidden="true" style="padding:15px;"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true" style="padding:15px;"></span>
+         <span class="sr-only">Next</span>
+        </a>
+        </div> -->
 
   
-  <img class="d-block w-100" src="./images/gif/productions-steps.gif" alt="First slide">
-      
-      
+        <img class="d-block w-100" src="./images/gif/productions-steps.gif" alt="First slide">
       </div>
     </div>
   </div>
 </section>
 
-<!--end of video section--> 
-<!--news section-->
-<!----- <section>
-  <div class="full bg-white">
-    <div class="mycontainer">
-      <div class="full">
-        <h1 class="text-uppercase text-center mt-my">Top News</h1>
-      </div>
-      <div class="full mt-5"> 
-        <section id="demos">
-          <div class="owl-carousel owl-theme">
-              
-        <?php
-      /*   $query = mysqli_query($conn, "SELECT id, title, description, link, photo FROM tbl_news WHERE 1");
-        while($res = mysqli_fetch_array($query)){ */
-        ?>
-        
-       <div class="item">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-12 card-personal mb-12 float-left">  
-          <div class="view overlay"><a href="news"> 
-          <img src="adminmain/uploads/news/<?php  if($res['photo']) { echo $res['photo']; } else { echo 'Na.png'; }?>" alt="" title="" style="height: 166px; width: 295px;">
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
-          <div class="card-body card " style="height:210px;">
-            <h5 style="font-size: 17px;"><?php /* echo substr(stripslashes($res['title']), 0, 100); */ ?></h5>
-            <p class="card-text"><a href="<?php /* echo stripslashes($res['link']); ?>"><?php echo substr(stripslashes($res['description']), 0, 125); */ ?></a></p>
-          </div>
-        </div>
-        </div>
-        
-        
-        <div class="item">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-12 card-personal mb-12 float-left"> 
-            <div class="view overlay"><a href="news"> <img src="adminmain/uploads/news/<?php/*   if($res['photo']) { echo $res['photo']; } else { echo 'Na.png'; } */?>" alt="" title="" style="height: 166px; width: 288px;">
-              <div class="mask rgba-white-slight"></div>
-              </a> </div>          
-            <div class="card-body card " style="height:210px;">
-              <h5 style="font-size: 17px;"><a href="<?php /* echo stripslashes($res['link']); ?>"><?php echo substr(stripslashes($res['title']), 0, 200); ?></a></h5>
-              <p class="card-text"><?php echo substr(stripslashes($res['description']), 0, 125); */ ?>...</p>
-            </div>          
-          </div>
-        </div>
-
-        
-        <?php /* } */?>
-        </div>
-        </section> -->
-        
-   <!--    </div>
-      <div class="full text-center mt-5 mb-5"> <a href="news">
-        <button type="button" class="btn btn-danger text-uppercase text-center">More news</button>
-        </a> </div>
-    </div>
-  </div> -->
-</section>
 <!--end of news section--> 
 <!--footer section-->
 <?php include('footer.php');?>
