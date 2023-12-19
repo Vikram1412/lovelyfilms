@@ -51,24 +51,41 @@ include('second-header.php');
       </div>
       <div class="full mt-5">
 
-      <div class="full mt-2 mb-5 rounded">
+        <div class="full mt-2 mb-5 rounded">
+          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;"><img src="images/rajnish.jpg" alt="" title="" style="height1: 176px;"></div>
+          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
+            <h4>Mr. Rajnish Jaiswal (Director)</h4>
+            <p>Mr. Rajnish Jaiswal is a film Director of Indian Origin. He is associated with Hindi film Chakallaspur (2017) starting Padmaja Roy, Urmila Mahanta, and Mukesh Manas. At present, he is associated with Lovely Films Private Limited and directing Film titled “Court Kachahari”</p>
+          </div>
+        </div>
+
+
+        <div class="full mb-5 border rounded">
+          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
+          <img src="images/team/mr-navneet.jpg" alt="" title="" ></div>
+          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
+            <h4>Mr. Navneet Maheshwari (Creative Director)</h4>
+          
+           <p>Embark on an exciting venture into precast concrete manufacturing with Mr. Navneet Maheshwari, a visionary leader and structural engineering expert educated at IIT Kanpur and IIT Delhi. Revolutionizing the construction industry, he has led prestigious projects such as the Kanpur metro, Jal Jeevam mission, Namami Gange, Railways, and private ventures. Beyond his construction prowess, Mr. Maheshwari is a champion of environmental preservation and sustainable living, passionately advocating for organic farming. His educational journey includes a Bachelor's degree in Civil Engineering from IIT Kanpur and a Master's degree in Structural Engineering from IIT Delhi, laying the foundation for his remarkable career.</p> 
+          </div>
+        </div>
+
+        <div class="full mt-2 mb-5 rounded">
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg" style="margin-top: 0px; padding:0px 0px 0px 0px;">
           <img src="images/team/mr-arun.jpg" alt="" title="" ></div>
 			    <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-             <h4>Mr. Arun Kumar (Producer and Story Writer) </h4>
+             <h4>Mr. Arun Kumar (Producer) </h4>
 
            <p> 
             
            Meet Mr. Arun Kumar, an influential IIT Kanpur alumnus and visionary leader reshaping the film production landscape as the founder of Lovely Films. With a fervor for storytelling and an unwavering commitment to excellence, he has produced industry-defining movies, inviting investors to join his journey for substantial returns and a share in the next blockbuster's success. Beyond his film ventures, Mr. Kumar boasts a successful career as a Project Manager, garnering acclaim for end-to-end solutions in examinations. Actively involved in the cutting-edge start-up Deep Vein, registered in Delaware, USA, he spearheads groundbreaking advancements in Medical Science, collaborating with prestigious institutions globally to address Deep Vein Thrombosis (DVT) and potentially save countless lives.
 
-
            </p>
-
-
           </div>
         </div>
-      
-      <div class="full mb-5  border rounded" >
+
+
+        <div class="full mb-5  border rounded" >
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg" style="margin-top: 0px; padding:0px 0px 0px 0px;">
           <img src="images/team/mr-alok.jpg" alt="" title="" >
           </div>
@@ -82,15 +99,7 @@ include('second-header.php');
           </div>
 
         </div>
-          <div class="full mb-5 border rounded">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <img src="images/team/mr-navneet.jpg" alt="" title="" ></div>
-          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mr. Navneet Maheshwari (Co-producer & Mentor)</h4>
-          
-           <p>Embark on an exciting venture into precast concrete manufacturing with Mr. Navneet Maheshwari, a visionary leader and structural engineering expert educated at IIT Kanpur and IIT Delhi. Revolutionizing the construction industry, he has led prestigious projects such as the Kanpur metro, Jal Jeevam mission, Namami Gange, Railways, and private ventures. Beyond his construction prowess, Mr. Maheshwari is a champion of environmental preservation and sustainable living, passionately advocating for organic farming. His educational journey includes a Bachelor's degree in Civil Engineering from IIT Kanpur and a Master's degree in Structural Engineering from IIT Delhi, laying the foundation for his remarkable career.</p> 
-          </div>
-        </div>
+
        
          <div class="full mb-5 border rounded" >
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">

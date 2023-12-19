@@ -22,8 +22,8 @@ include('header.php');
 <div class="container-flud">
       <img class="d-block w-100 " src="images/tab/header.jpg" alt="First slide">
 
-      <h1 style="position:absolute;top: 30%;
-    left: 35%;text-align:center:" > Chandrayaan </h1>
+     <!--  <h1 style="position:absolute;top: 30%;
+    left: 35%;text-align:center:" > Chandrayaan </h1> -->
 </div>
 
 <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -47,8 +47,10 @@ include('header.php');
       <div class="row mt-5" >
 
         <div class="col-md-12 col-sm-12 mt-5">
-            <!-- <img src="images\baneerpsd.gif" class="img-fluid" alt="Responsive image"> -->
-            <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image">
+       
+            <!-- <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image"> -->
+
+            <img src="images\chandrayaan\lovely\chandrayaan.jpg"  class="img-thumbnail" alt="Responsive image">
             </div>
 
 

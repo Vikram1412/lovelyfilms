@@ -16,10 +16,19 @@
 <?php 
 
 include('header.php');
-include('second-header.php');
+
 ?>
 
+<section style="margin:0;padding:0;background-color:#000;">
+    <div class="contaner">
 
+    <img src="images/tab/header.jpg" alt="" style="width:100%;margin:50px 0 0 0;">
+    <center>
+        <!--       <h2 style="margin-top:-250px;color:#fff; position:absolute;text-transform:uppercase;"> Videos</h2> -->
+    </center>
+    </div>
+  
+</section>
 
 <section>
   <div class="full mt-5" style="backgroud-color:#000; -webkit-backgroud-color:#000;">
@@ -38,11 +47,13 @@ include('second-header.php');
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qlmClaFoK_E" allowfullscreen></iframe>
           </div>
         </div>
+
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VoG19ofl614" allowfullscreen></iframe>
           </div>
         </div>
+
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Het6YIi_9H0" allowfullscreen></iframe>

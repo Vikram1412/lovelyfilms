@@ -24,12 +24,13 @@ include('second-header.php');
   <div class="full " style="backgrond-color:#000; -webkit-background-color:#000; margin-top:100px; ">
     <div class="mycontainer">
       <div class="full pt-2 p-2">
-        <h1 class="text-uppercase text-center my-clr p-2" style=""> Upcoming Movie </h1>
+        <!-- <h1 class="text-uppercase text-center my-clr p-2" style=""> Upcoming Movie </h1> -->
       </div>
       <div class="row">
         <div class="col-md-12 col-sm-12">
           <center>
-            <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image" style="width:98% ! important;">
+            <!-- <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image" style="width:98% ! important;"> -->
+            <img src="images\chandrayaan\lovely\chandrayaan.jpg"  class="img-thumbnail" alt="Responsive image" style="width:98% ! important;">
             </div>
           <div class="col-md-12 mt-2"> 
           <div class="full pt-2 p-2 mt-5">

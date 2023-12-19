@@ -33,23 +33,26 @@ require_once 'includes/config.php';
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
 
-
   <div class="carousel-inner">
 
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="images/chandrayaan/chandryaan-upcoming-1.jpg" alt="First slide">
+
+  <div class="carousel-item active">
+      <img class="d-block w-100" src="images\chandrayaan\lovely\banner-3.png" alt="Third slide">
+    </div> 
+
+   
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\chandrayaan\court-kachahari.jpg" alt="Third slide">
+    </div> 
+
+    <div class="carousel-item ">
+      <img class="d-block w-100" src="images\chandrayaan\lovely\banner-1.png" alt="First slide">
     </div>
 
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/chandrayaan/chandrayaan-banner-2.jpg" alt="Third slide">
-    </div> 
+  
 
-
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/chandrayaan/court-kachahari.jpg" alt="Third slide">
-    </div> 
-
-     </div>
+     </div> 
 
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
       <span class="carousel-control-prev-icon" aria-hidden="true" style="padding:15px;"></span>
@@ -61,11 +64,9 @@ require_once 'includes/config.php';
       </a>
 </div>
 
-
 <!-- /slider section -->
+
 <!-- start movie section -->
-
-
 
  <section>
    <div class="full bg-dark">
@@ -77,7 +78,7 @@ require_once 'includes/config.php';
 
             <div class="col-md-12 col-sm-12 mt-5">
              <!-- <img src="images\baneerpsd.gif" class="img-fluid" alt="Responsive image"> -->
-              <img src="./images/chandrayaan/chandryaan-upcoming.jpg"  class="img-thumbnail" alt="Responsive image">
+              <img src="images\chandrayaan\lovely\chandrayaan.jpg"  class="img-thumbnail" alt="Responsive image">
              </div>
               <div class="col-md-12 col-sm-12 mt-5"></div>
             </div>
