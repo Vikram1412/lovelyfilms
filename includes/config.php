@@ -5,10 +5,15 @@ $password = "2bkyl^BOX6(B";
 $db = "biosmart_lovelyfilms"; */
 
 
-$servername = "localhost";
+/* $servername = "localhost";
 $username = "binsysco";
 $password = "g$9Qt@3KrE";
-$db = "binsysco_lovelyfi_lovelyfilms";
+$db = "binsysco_lovelyfi_lovelyfilms"; */
+
+ $servername = "localhost";
+$username = "root";
+$password = "";
+$db = "biosmart_lovelyfilms";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $db);

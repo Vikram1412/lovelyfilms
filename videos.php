@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+<?php include('favicon.php'); ?>
 </head>
 
 <body>
@@ -17,25 +19,19 @@
 
 include('header.php');
 
+// this variable initiate for every pages title
+$page_title ="videos";
+include('second-header.php');
+
 ?>
 
-<section style="margin:0;padding:0;background-color:#000;">
-    <div class="contaner">
-
-    <img src="images/tab/header.jpg" alt="" style="width:100%;margin:50px 0 0 0;">
-    <center>
-        <!--       <h2 style="margin-top:-250px;color:#fff; position:absolute;text-transform:uppercase;"> Videos</h2> -->
-    </center>
-    </div>
-  
-</section>
 
 <section>
   <div class="full mt-5" style="backgroud-color:#000; -webkit-backgroud-color:#000;">
     <div class="mycontainer">
-      <div class="full mt-5">
+      <!-- <div class="full mt-5">
         <h1 class="text-uppercase text-center my-clr">videos</h1>
-      </div>
+      </div> -->
       <div class="full mt-5">
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
           <div class="embed-responsive embed-responsive-16by9">

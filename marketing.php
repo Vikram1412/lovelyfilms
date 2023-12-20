@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
+<?php include('favicon.php'); ?>
 </head>
 
 <body>
@@ -17,19 +18,21 @@
 
 include('header.php');
 
+// this variable initiate for every pages title
+$page_title ="Marketing & Distribution";
 include('second-header.php');
+
 ?>
 
-  
 <!--video section-->
 <section>
   <div class="full"  style>
     <div class="container">
-    <div class="full ">
+    <!-- <div class="full ">
     <h1 class="text-uppercase text-center mt-5 my-clr">Marketing & Distribution</h1>
-		</div>
+		</div> -->
       <div class="full left mb-5 mt-5 grays">
-     
+    
        <p class="forpra left  mt-2 grays">A combination of the best of traditional distribution with the most ground-breaking in digital & Internet distribution in a fusion distribution model:</p>
         
           <div class="col-xl-8 float-left mt-3 ">

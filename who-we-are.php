@@ -9,24 +9,20 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+<?php include('favicon.php'); ?>
 </head>
 
 <body>
 <!-- Navigation -->
+
 <?php 
-
 include('header.php');
+// This variable initiate for every pages title
+$page_title ="About us - Who we are ?";
 include('second-header.php');
+
 ?>
-
-<style>
-  
-  
-  .big::first-letter{
-      font-size:200%;
-  }
-
-</style>
 
 <!--video section-->
 <section>

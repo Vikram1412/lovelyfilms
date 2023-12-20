@@ -99,7 +99,7 @@
 					</div>
 				</div>
 				<!-- Footer Bottom Area End -->
-			</footer>
+</footer>
 
   <script type="text/javascript">
 	

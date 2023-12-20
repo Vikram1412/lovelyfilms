@@ -44,6 +44,9 @@ if($msg=="Success"){
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <!--end of new links-->
+
+<?php include('favicon.php'); ?>
+
 <style type="text/css">
 .select2-container--default .select2-selection--multiple {
     background-color: inherit !important;

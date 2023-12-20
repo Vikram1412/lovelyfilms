@@ -20,6 +20,8 @@ require_once 'includes/config.php';
  --><link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
 
+<?php include('favicon.php'); ?>
+
 </head>
 
 <body>
@@ -144,47 +146,43 @@ require_once 'includes/config.php';
     In the bustling city of Academia, education is a commodity controlled by ruthless mafias that manipulate grades, exploit vulnerable students, and maintain a vice-like grip on academic institutions. Enter Maya Sharma, a bright and ambitious student from a humble background who dreams of breaking free from the shackles of her circumstances through education.
     </p>
     <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
-Maya's world is turned upside down when her best friend, Aryan, becomes a victim of the education mafias. Unable to bear witness to the injustice around her, Maya decides to take matters into her own hands. Armed with her intelligence, determination, and a deep sense of justice, she embarks on a mission to dismantle the education mafias and bring about positive change.
-</p>
-<p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
-As Maya digs deeper, she uncovers a web of corruption that extends far beyond the classroom. The mafias have infiltrated every aspect of the education system, from teachers to administrators, creating a culture of fear and silence. Undeterred, Maya gains support from like-minded individuals, forming an underground network committed to exposing the truth.
-</p>
-<p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
-Facing numerous challenges and threats, Maya employs her strategic mind and resourcefulness to gather evidence against the mafias. Along the way, she discovers unexpected allies among teachers and administrators who have long been silenced by the corrupt system. Together, they form a formidable force determined to reclaim the integrity of education.
-</p>
-<!-- <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
-As Maya's story gains traction, it sparks a city-wide movement against the education mafias. Students, teachers, and parents join forces to demand transparency, accountability, and fairness in education. The mafias, feeling the pressure, resort to desperate measures to protect their empire, leading to intense confrontations and suspenseful moments.
-</p> -->
-
+    Maya's world is turned upside down when her best friend, Aryan, becomes a victim of the education mafias. Unable to bear witness to the injustice around her, Maya decides to take matters into her own hands. Armed with her intelligence, determination, and a deep sense of justice, she embarks on a mission to dismantle the education mafias and bring about positive change.
+    </p>
+    <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
+    As Maya digs deeper, she uncovers a web of corruption that extends far beyond the classroom. The mafias have infiltrated every aspect of the education system, from teachers to administrators, creating a culture of fear and silence. Undeterred, Maya gains support from like-minded individuals, forming an underground network committed to exposing the truth.
+    </p>
+    <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
+    Facing numerous challenges and threats, Maya employs her strategic mind and resourcefulness to gather evidence against the mafias. Along the way, she discovers unexpected allies among teachers and administrators who have long been silenced by the corrupt system. Together, they form a formidable force determined to reclaim the integrity of education.
+    </p>
+    <!-- <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
+    As Maya's story gains traction, it sparks a city-wide movement against the education mafias. Students, teachers, and parents join forces to demand transparency, accountability, and fairness in education. The mafias, feeling the pressure, resort to desperate measures to protect their empire, leading to intense confrontations and suspenseful moments.
+    </p> -->
   </div> <!-- coloumn one -->
 
   <div class="col-md-6"> <!-- column second  -->
   <!-- <h1 class="text-center text-uppercase"> Setters </h1> -->
 
-  <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
 
-  <div class="carousel-inner">
+        <div class="carousel-inner">
 
-    <div class="carousel-item active">
-    <center>
-      <img class="d-block " src="images\setter\setters-12.jpg" alt="First slide">
-    </div>
+          <div class="carousel-item active">
+          <center>
+            <img class="d-block " src="images\setter\setters-12.jpg" alt="First slide">
+          </div>
 
-    <div class="carousel-item">
-    <center>
-      <img class="d-block " src="images\setter\certificate.jpg" alt="Third slide">
-    </div> 
+          <div class="carousel-item">
+          <center>
+            <img class="d-block " src="images\setter\certificate.jpg" alt="Third slide">
+          </div> 
 
 
-   <div class="carousel-item">
-    <center>
-      <img class="d-block  " src="images\setter\setters-anupam.jpg" alt="Third slide">
-    </div> 
-
-     </div>
-
-    
-  </div>
+        <div class="carousel-item">
+          <center>
+            <img class="d-block  " src="images\setter\setters-anupam.jpg" alt="Third slide">
+          </div> 
+          </div>
+      </div>
   </div> <!-- / column second -->
 </div> <!-- row -->
 </div>

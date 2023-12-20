@@ -2,6 +2,60 @@
 include_once("includes/config.php");
 ?>
 <style>
+
+/* it style for  header header section */
+.header-text {
+
+margin-top: -285px;
+left: calc(100% /3);
+right:calc(100% /3);
+color: #fff;
+position: absolute;
+text-transform: uppercase;
+
+text-align:center;
+
+background:#f37021;
+padding: 6px;
+border-radius:7px;
+text-shadow: 5px 5px 5px #000;
+
+}
+
+.header-text:after{
+      content:'\21E9';
+}
+
+.header-img{
+      width:100%;
+      height: auto;
+}
+
+@media (max-width:768px){
+
+  .header-text {
+        margin-top: -104px;
+        left: calc(100% /3);
+        right:calc(100% /3);
+        font-size: 1.5rem ! important;
+
+            }
+            h1{
+              font-size: 1.5rem ! important;
+            }
+
+
+.header-img{
+      width:100%;
+      height:240px;
+}
+
+}
+
+/* end it is for header section */
+
+
+
 .mydown > a:after {
     content: ' \25BF';
     color:#fff;

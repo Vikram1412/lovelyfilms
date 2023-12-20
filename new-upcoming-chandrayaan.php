@@ -9,34 +9,23 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
+<?php include('favicon.php'); ?>
 </head>
 
 <body>
 <!-- Navigation -->
+
 <?php 
 
 include('header.php');
 
+include('header.php');
+
+// this variable initiate for every pages title
+$page_title ="Upcoming films Chndrayaan";
+include('second-header.php');
+
 ?>
-
-<div class="container-flud">
-      <img class="d-block w-100 " src="images/tab/header.jpg" alt="First slide">
-
-     <!--  <h1 style="position:absolute;top: 30%;
-    left: 35%;text-align:center:" > Chandrayaan </h1> -->
-</div>
-
-<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100 " src="images/tab/header.jpg" alt="First slide">
-    </div>
-
-    </div>
-   
-</div> -->
-
 <!--video section-->
 <section>
   <div class="full" style="backgrond-color:#000; -webkit-background-color:#000; margin-top:40px;">
