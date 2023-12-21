@@ -138,25 +138,19 @@ require_once 'includes/config.php';
   <h1 class="text-center text-uppercase my-clr underline">Success Story</h1>
   <div class="row">
   <div class="col-md-6"><!-- column one -->
-    <h3 style="font-style:italic;color:#999;padding: 0 10px 0 10px;">Setters Story</h3>
+    <h3 style="font-style:italic;color:#999;padding: 20px 10px 0px 10px;">Setters</h3>
     <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
-    Setters is a films which aim are how to  break the Chains of Education Mafias" is a compelling tale of resilience, justice, and the power of individuals to challenge and overcome systemic corruption. Maya's journey from a student with a dream to a catalyst for change serves as a testament to the transformative impact of education when liberated from the clutches of corruption.
+    "Setters" unfolds as a gripping narrative that delves into the dark underbelly of an examination cheating racket led by Apurva Chaudhary. The intricate plot revolves around the specialized operation that cons various examinations, including those for banking, medical, and engineering entrance. The movie intelligently explores the cat-and-mouse game between the head of the racket, Apurva, and Inspector Aditya Singh, who heads a special police task force. The tension heightens as the cheating gang, armed with innovative ideas, manages to outsmart the law enforcement repeatedly.
     </p>
     <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
-    In the bustling city of Academia, education is a commodity controlled by ruthless mafias that manipulate grades, exploit vulnerable students, and maintain a vice-like grip on academic institutions. Enter Maya Sharma, a bright and ambitious student from a humble background who dreams of breaking free from the shackles of her circumstances through education.
+    The success of "Setters" lies in its well-written and executed storyline that not only entertains but also addresses societal issues. The film highlights the flaws in the Indian education system, portraying the vast profits made by the cheating racket and the lengths to which individuals go to exploit it. The complex relationship between Apurva and his former friend turned cop, Aditya, adds emotional depth to the narrative. The reviews commend the movie for staying true to its content without straying into unnecessary subplots, presenting a straightforward take on the prevalent issue of cheating in government competitive exams.
     </p>
     <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
-    Maya's world is turned upside down when her best friend, Aryan, becomes a victim of the education mafias. Unable to bear witness to the injustice around her, Maya decides to take matters into her own hands. Armed with her intelligence, determination, and a deep sense of justice, she embarks on a mission to dismantle the education mafias and bring about positive change.
+    People have praised the performances of the cast, particularly Shreyas Talpade and Aftab Shivdasani, as well as the well-planned screenplay. "Setters" is celebrated for its honest portrayal of a realistic subject and its ability to keep audiences engaged with unexpected twists and turns. The film's thematic song, "Kartootien," is recognized for its situational relevance, contributing to the overall impact of the thriller. In conclusion, "Setters" emerges as a decent attempt, shedding light on a critical issue while maintaining a thrilling and engaging narrative.
     </p>
-    <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
-    As Maya digs deeper, she uncovers a web of corruption that extends far beyond the classroom. The mafias have infiltrated every aspect of the education system, from teachers to administrators, creating a culture of fear and silence. Undeterred, Maya gains support from like-minded individuals, forming an underground network committed to exposing the truth.
-    </p>
-    <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
-    Facing numerous challenges and threats, Maya employs her strategic mind and resourcefulness to gather evidence against the mafias. Along the way, she discovers unexpected allies among teachers and administrators who have long been silenced by the corrupt system. Together, they form a formidable force determined to reclaim the integrity of education.
-    </p>
-    <!-- <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
-    As Maya's story gains traction, it sparks a city-wide movement against the education mafias. Students, teachers, and parents join forces to demand transparency, accountability, and fairness in education. The mafias, feeling the pressure, resort to desperate measures to protect their empire, leading to intense confrontations and suspenseful moments.
-    </p> -->
+ 
+
+   
   </div> <!-- coloumn one -->
 
   <div class="col-md-6"> <!-- column second  -->
@@ -168,18 +162,18 @@ require_once 'includes/config.php';
 
           <div class="carousel-item active">
           <center>
-            <img class="d-block " src="images\setter\setters-12.jpg" alt="First slide">
+            <img class="d-block " src="images\setter\setters-12.jpg" alt="First slide ----------">
           </div>
 
           <div class="carousel-item">
           <center>
-            <img class="d-block " src="images\setter\certificate.jpg" alt="Third slide">
+            <img class="d-block " src="images\setter\setter-light.png" alt="Second slide">
           </div> 
 
 
         <div class="carousel-item">
           <center>
-            <img class="d-block  " src="images\setter\setters-anupam.jpg" alt="Third slide">
+            <img class="d-block  " src="images\setter\setters-group.jpg" alt="Third slide">
           </div> 
           </div>
       </div>

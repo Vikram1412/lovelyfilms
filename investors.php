@@ -59,7 +59,7 @@ include('header.php');
 include('header.php');
 
 // this variable initiate for every pages title
-$page_title ="Investor";
+$page_title ="Investors";
 include('second-header.php');
 
 ?>
@@ -68,26 +68,29 @@ include('second-header.php');
 <section>
   <div class="full bg-white" style="margin-top:100px;">
     <div class="mycontainer">
-      <div class="full">
+      <!-- <div class="full">
         <h1 class="text-uppercase text-center mt-my">Investors</h1>
-      </div>
+      </div> -->
       <div class="full mt-5">
         <div class="col-xl-4 float-left">
           <div class="row">
-            <div class="card"> <img src="images/Satish.jpeg" alt="John" style="width:100%">
+          <div class="card">
+             <img src="images/Satish.jpeg" alt="John" style="width:100%">
               <h3 class="mt-4">Mr. Satish Kumar</h3>
               <p class="title">Company Secretary & Compliance Officer Tell: Board line - +91-22- 67080500</p>
-              <div class="full mb-5"><a href="mailto:info@lovelyfilms.in" style="font-size: 15px;"><i class="fa fa-mail-forward"></i> info@lovelyfilms.in</a></div>
+              <div class="full mb-5"><a href="mailto:info@lovelyfilms.in" style="font-size: 15px;"><i class="fa fa-mail-forward"></i> info@lovelyfilms.in</a></div> 
               <!--<p>Lorem Ipsum</p>--> 
               <!--       <div style="margin: 24px 0;"> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> </div>--> 
               <!--                <div class="full text-center">
         <button type="button" class="btn btn-danger btn-danger1 text-uppercase text-center">Contact</button>
       </div>--> 
-            </div>
+           </div>
+
           </div>
-        </div>
+        </div> 
         <div class="col-xl-8 float-left">
           <div class="row">
+          <h4 class="full mb-3">Investor:</h4>
             <ul class="full mb-4">
               <li>Board Meetings</li>
               <li>Schedule of Conference Call / Investors-Analysts Meeting</li>

@@ -60,7 +60,7 @@ include('second-header.php');
 
         <div class="full mt-2 mb-5 rounded">
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg" style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <img src="images/team/mr-arun.jpg" alt="" title="" ></div>
+          <img src="images/team/img/arun-producer.jpg" alt="" title="" ></div>
 			    <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
              <h4>Mr. Arun Kumar (Producer) </h4>
 
@@ -75,7 +75,7 @@ include('second-header.php');
 
         <div class="full mb-5  border rounded" >
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg" style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <img src="images/team/mr-alok.jpg" alt="" title="" >
+          <img src="images/team/img/alok_producer.jpg" alt="" title="" >
           </div>
 
 			    <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
@@ -88,20 +88,9 @@ include('second-header.php');
 
         </div>
 
-
-        <div class="full mt-2 mb-5 rounded">
-          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <img src="images/team/rajnish.jpg" alt="" title="" ></div>
-          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
-            <h4>Mr. Rajnish Jaiswal (Director)</h4>
-            <p>Mr. Rajnish Jaiswal is a film Director of Indian Origin. He is associated with Hindi film Chakallaspur (2017) starting Padmaja Roy, Urmila Mahanta, and Mukesh Manas. At present, he is associated with Lovely Films Private Limited and directing Film titled “Court Kachahari”</p>
-          </div>
-        </div>
-
-
         <div class="full mb-5 border rounded">
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <img src="images/team/mr-navneet.jpg" alt="" title="" ></div>
+          <img src="images/team/img/navneet_creative.jpg" alt="" title="" ></div>
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
             <h4>Mr. Navneet Maheshwari (Creative Director)</h4>
           
@@ -112,7 +101,7 @@ include('second-header.php');
        
          <div class="full mb-5 border rounded" >
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <img src="images/team/mr-nitish.jpg" alt="" title="" ></div>
+          <img src="images/team/img/nitish-writer.jpg" alt="" title="" ></div>
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
             <h4> Mr. Nitish Kumar Ranjan (Script writer & Lyricist) </h4>
             <p>
@@ -123,7 +112,7 @@ include('second-header.php');
         
         <div class="full mb-5 border rounded" >
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <img src="images/team/mr-mahendra.png" alt="" title="" style="height1: 176px;"></div>
+          <img src="images/team/img/mr-mahendra.png" alt="" title="" ></div>
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
             <h4>Mr. Mahender Kumar (Lead Mentor)</h4>
             <p>Mr. Mahender Kumar is Joint Director DRDO (Retired), has a long experience in social and HR management and is a renowned Astrologer and Vaastu expert.  He is a lead Mentor and consultant and provided valuable inputs for our earlier film Setters.</p>
@@ -132,29 +121,36 @@ include('second-header.php');
         
         <div class="full mb-5 border rounded" >
             <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
-            <img src="images/team/mr-vinod.jpg" alt="" title="" ></div>
+            <img src="images/team/img/vinod-mentor.jpg" alt="" title="" ></div>
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
             <h4>Dr. Vinod Kumar (Mentor)</h4>
             <p>Dr. Kumar is an IIT Kanpur Alumnus, who is engaged in research goal is to develop and integrate cutting-edge computational tools for complex engineering and science challenges by leveraging Exascale/High Performance Computing (HPC), machine learning and artificial intelligence, data analytics/bigdata concepts, Uncertainty Quantification (UQ), and leading-edge computational capabilities. His research group has focused on real-life and fundamental thermal-fluid applications coupled with crosscutting domains such as structure dynamics, solid mechanics, biomedical engineering, hypersonic.</p>
           </div>
         </div>
-        
-    
-        
+
         <div class="full mb-5 border rounded" style="border:solid 1px #b2b2b2;">
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <img src="images/team/harsh.jpg" alt="" title="" style="height1: 224px;"></div>
+          <img src="images/team/img/harsh_finance.jpg" alt="" title="" ></div>
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
             <h4>Mr. Harsh Agrawal (Finance Head)</h4>
-            <p>Mr. Harsh Agrawal is an alumnus of The Institute of Chartered Accountants of India (ICAI), He has more than 12 years of experience in managing overall finance of the company and financial planning & management, procedures and controls, maintenance & finalization of accounts, working capital management, profitability monitoring, capital restructuring, project implementation and building internal financial controls. Possess remarkable tract record of meeting assigned targets in an efficient and effective manner, dealing with internal and external customers. Competent problem-solver proven capabilities of working dynamic teams in a fast-paced environment. He is playing an active role in mentoring Lovely films private limited projects.</p>
+            <p>Mr. Harsh Agrawal is an alumnus of Hindu College (Delhi University) and an active member of The Institute of Chartered Accountants of India (ICAI). He is a certified forensic and system auditor. He has more than 12 years of experience in managing overall finance of the company, financial planning & management, procedures and controls, maintenance & finalization of accounts, working capital management, profitability monitoring, capital restructuring, project implementation and building internal financial controls. Possess remarkable track record of meeting assigned targets in an efficient and effective manner, dealing with internal and external customers. Competent problem-solver, proven capabilities of working with dynamic teams in a fast-paced environment. He is playing an active role in mentoring Lovely films private limited projects.</p>
           </div>
         </div>
 
 
+
+        <div class="full mt-2 mb-5 rounded">
+          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
+          <img src="images/team/img/rajnish.jpg" alt="" title="" ></div>
+          <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
+            <h4>Mr. Rajnish Jaiswal (Director)</h4>
+            <p>Mr. Rajnish Jaiswal is a film Director of Indian Origin. He is associated with Hindi film Chakallaspur (2017) starting Padmaja Roy, Urmila Mahanta, and Mukesh Manas. At present, he is associated with Lovely Films Private Limited and directing Film titled “Court Kachahari”</p>
+          </div>
+        </div>
         
         <div class="full mb-5 border rounded">
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <img src="images/team/mr-narayan.jpg" alt="Narayan Maheshwari" title="Narayan Maheshwari" > 
+          <img src="images/team/img/narayan-it.jpg" alt="Narayan Maheshwari" title="Narayan Maheshwari" > 
           </div>
 
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
@@ -167,7 +163,7 @@ include('second-header.php');
   
         <div class="full mb-5 border rounded" >
           <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-12 float-left text-center forimg " style="margin-top: 0px; padding:0px 0px 0px 0px;">
-          <img src="images/team/mr-santosh.jpg" alt="santosh" title="santosh" ></div>
+          <img src="images/team/img/santosh.jpg" alt="santosh" title="santosh" ></div>
           <div class="col-xl-10 col-lg-8 col-md-6 col-sm-12 col-12 float-left mt-4 ml-3" style="margin-top: 0.5rem!important;margin-left: 0rem!important;">
             <h4>Mr. Santosh Jha (Mentor)</h4>
             <p>Mr. Santosh Kumar Jha is an alumnus of IIT Kanpur, have  worked with several MNCs in India and abroad. He has more than 15 years experience in IT area. He is playing an active role in mentoring Lovely films private limited projects.</p>

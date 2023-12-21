@@ -22,9 +22,10 @@ text-shadow: 5px 5px 5px #000;
 
 }
 
-.header-text:after{
+
+/* .header-text:after{
       content:'\21E9';
-}
+} */
 
 .header-img{
       width:100%;
@@ -154,7 +155,7 @@ text-shadow: 5px 5px 5px #000;
   <div class="full forposition">
     <div class="bg-orange">
       <div class="full bg-orange-color">
-        <div class="logo"><a href="index"><img src="images/logo.png" alt="" /></a></div>
+        <div class="logo"><a href="index"><img src="images/logo/logos.jpg" alt="" /></a></div>
 	 <div class="hidondesk float-right mt-25 mr-3">
               <div id="nav-icon2"> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> </div>
             </div>
@@ -164,9 +165,10 @@ text-shadow: 5px 5px 5px #000;
             <li><a href="index">Home</a></li>
             <li><a href="movies">Movies</a></li>
             <li><a href="videos">Videos</a></li>
-            <li class="mydown"><a href="#">Sevices</a>
+            <li class="mydown"><a href="#">Opportunities</a>
               <ul class="submenuss">
-                <li><a href="marketing">Marketing & Distribution</a></li>
+                <li><a href="investors">Investors</a></li>
+                <!-- <li><a href="marketing">Marketing & Distribution</a></li> -->
               </ul>
             </li>
             <!-- <li><a href="news">News</a></li>
