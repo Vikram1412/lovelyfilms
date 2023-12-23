@@ -33,7 +33,6 @@ text-shadow: 5px 5px 5px #000;
 }
 
 @media (max-width:768px){
-
   .header-text {
         margin-top: -104px;
         left: calc(100% /3);
@@ -45,7 +44,6 @@ text-shadow: 5px 5px 5px #000;
               font-size: 1.5rem ! important;
             }
 
-
 .header-img{
       width:100%;
       height:240px;
@@ -53,9 +51,29 @@ text-shadow: 5px 5px 5px #000;
 
 }
 
+@media (max-width: 1220px )
+{
+
+.header-text {
+
+margin-top: -169px;
+
+  }
+
+}
+
+@media (max-width: 1024px )
+{
+
+.header-text {
+
+margin-top: -125px;
+
+  }
+
+}
+
 /* end it is for header section */
-
-
 
 .mydown > a:after {
     content: ' \25BF';
@@ -77,6 +95,7 @@ text-shadow: 5px 5px 5px #000;
 
 .animation{
 
+          font-family: verdana;
         animation: blinks 1000ms infinite;
 
 }
@@ -89,6 +108,12 @@ text-shadow: 5px 5px 5px #000;
         100%{color: orange; text-shadow : 7px 0px 15px orange;}
 
         
+}
+
+.animation:hover{
+
+  animation-play-state: paused;
+
 }
 
 
@@ -149,7 +174,58 @@ text-shadow: 5px 5px 5px #000;
 
 
   .grays{color:#b9afafbd !important ;}
-  
+
+/* cusor effects */
+
+
+.cursor {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 2;
+  pointer-events: none;
+
+}
+.cursor div {
+  position: absolute;
+  display: grid;
+  place-items: center;
+}
+.cursor div div{
+
+  border: 1px solid #fff;
+  border-radius: 50%;
+  animation: pulse 2.5s linear infinite;
+  box-shadow: 0 0 50px 5px #d7abff6e;
+}
+.cursor div:nth-child(1),
+.cursor div:nth-child(2) {
+  width: 100%;
+  height: 100%;
+}
+.cursor div:nth-child(1) {
+  transition: transform 0.2s ease-out;
+}
+.cursor div:nth-child(2) {
+  transition: transform 0.1s ease-out;
+}
+.cursor div:nth-child(2) div {
+  background: #fff;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+}
+
+
+.arrow:after{
+  content:'\21B4';
+  font-size:50px;
+  font-weight:900;
+  margin-top:20px;
+}
 </style>
 <nav>
   <div class="full forposition">
@@ -165,14 +241,16 @@ text-shadow: 5px 5px 5px #000;
             <li><a href="index">Home</a></li>
             <li><a href="movies">Movies</a></li>
             <li><a href="videos">Videos</a></li>
-            <li class="mydown"><a href="#">Opportunities</a>
+
+           <!-- <li class="mydown"><a href="#">Service</a> -->
+            <li class="mydown"><a href="#">Opportunities</a> 
               <ul class="submenuss">
-                <li><a href="investors">Investors</a></li>
-                <!-- <li><a href="marketing">Marketing & Distribution</a></li> -->
+                <li><a href="investors">For Investors</a></li>
+                <li><a href="artist">For Artist</a></li>
               </ul>
             </li>
             <!-- <li><a href="news">News</a></li>
-            <li><a href="investor">Investors</a></li> -->
+             -->
 
            <li class="mydown"  ><a href="#">About</a>
               <ul  class="submenus" style="">
@@ -242,3 +320,17 @@ text-shadow: 5px 5px 5px #000;
     </div>
   </div>
 </nav>
+
+
+<!-- cursor effects -->
+
+<div id="cursor" class="cursor">
+	<div class="ring">
+		<div><!--Border--></div>
+	</div>
+	<div class="ring">
+		<div><!--Pointer--></div>		
+	</div>
+</div>
+
+<!-- /cursor effects -->

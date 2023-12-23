@@ -19,14 +19,12 @@ require_once 'includes/config.php';
 <!-- <link rel="stylesheet" href="assets/css/docs.theme.min.css">
  --><link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
-
 <?php include('favicon.php'); ?>
-
 </head>
-
-<body>
+<body oncontextmenu="return false">
 <!-- Navigation -->
 <?php include('header.php');?>
+
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -38,14 +36,14 @@ require_once 'includes/config.php';
   <div class="carousel-inner">
 
 
-  <div class="carousel-item active">
+    <div class="carousel-item active">
       <img class="d-block w-100" src="images\chandrayaan\lovely\banner-3.png" alt="Third slide">
     </div> 
 
    
 
     <div class="carousel-item">
-      <img class="d-block w-100" src="images\chandrayaan\court-kachahari.jpg" alt="Third slide">
+      <img class="d-block w-100" src="images\chandrayaan\courtkachahary-11.jpg" alt="Third slide">
     </div> 
 
     <div class="carousel-item ">
@@ -54,90 +52,51 @@ require_once 'includes/config.php';
 
   
 
-     </div> 
-
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
+  </div> 
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
       <span class="carousel-control-prev-icon" aria-hidden="true" style="padding:15px;"></span>
       <span class="sr-only">Previous</span>
-     </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true" style="padding:15px;"></span>
       <span class="sr-only">Next</span>
-      </a>
+    </a>
+    
 </div>
 
 <!-- /slider section -->
 
 <!-- start movie section -->
-
- <section>
-   <div class="full bg-dark">
-     <div class="mycontainer">
+<section>
+  <div class="full bg-dark">
+    <div class="mycontainer">
            <!-- <div class="full mt-5">
              <h1 class="text-uppercase my-clr underline">Upcoming Film Chandrayaan</h1>
             </div> -->
-           <div class="row">
+      <div class="row">
 
-            <div class="col-md-12 col-sm-12 mt-5">
+          <div class="col-md-12 col-sm-12 mt-5">
              <!-- <img src="images\baneerpsd.gif" class="img-fluid" alt="Responsive image"> -->
               <img src="images\chandrayaan\lovely\chandrayaan.jpg"  class="img-thumbnail" alt="Responsive image">
-             </div>
-              <div class="col-md-12 col-sm-12 mt-5"></div>
             </div>
+          <div class="col-md-12 col-sm-12 mt-5">
 
+          </div>
       </div>
+
     </div>
-  </section>
+  </div>
+</section>
 <!-- end movie section -->
 
-
-<!-- start Privies movie  -->
-<!-- <section>
-   <div class="full bg-dark">
-     <div class="mycontainer">
-          <div class="full mt-5">
-            <h1 class="text-uppercase my-clr underline " >Other Movies</h1>
-          </div>
-          
-            <div class="row">  row under first item -->
-
-<!--             <div class="col"> 
-            <img class="img-thumbnail" src="images\complete-films\setter-1.png" alt="First slide">
-            </div>
-
-            <div class="col"> 
-            <img class="img-thumbnail" src="images\courth-kachehari\court-3.jpg" alt="First slide">
-            </div>
-
-          </div>
-      </div>
-    </div>
-</section> --> 
-
-<!-- end  privious movie -->
-
-<!-- <section>
-   <div class="full bg-dark">
-     <div class="mycontainer">
-
-
-
-
-     <h1 class="text-uppercase my-clr underline">****************************************************************************</h1>
-          </div>
-
-      </div>
-    </div>
-</section> -->
-
 <!-- success story  -->
-
 <section>
-<div class="mycontainer ">
-  <div class="full mt-5">
-  <h1 class="text-center text-uppercase my-clr underline">Success Story</h1>
-  <div class="row">
-  <div class="col-md-6"><!-- column one -->
+  <div class="mycontainer ">
+    <div class="full mt-5">
+      <h1 class="text-center text-uppercase my-clr underline">Success Story</h1>
+
+      <div class="row">
+     <div class="col-md-6"><!-- column one -->
     <h3 style="font-style:italic;color:#999;padding: 20px 10px 0px 10px;">Setters</h3>
     <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
     "Setters" unfolds as a gripping narrative that delves into the dark underbelly of an examination cheating racket led by Apurva Chaudhary. The intricate plot revolves around the specialized operation that cons various examinations, including those for banking, medical, and engineering entrance. The movie intelligently explores the cat-and-mouse game between the head of the racket, Apurva, and Inspector Aditya Singh, who heads a special police task force. The tension heightens as the cheating gang, armed with innovative ideas, manages to outsmart the law enforcement repeatedly.
@@ -148,10 +107,8 @@ require_once 'includes/config.php';
     <p style="color:#888;text-align:justify;padding: 0 10px 0 10px;">
     People have praised the performances of the cast, particularly Shreyas Talpade and Aftab Shivdasani, as well as the well-planned screenplay. "Setters" is celebrated for its honest portrayal of a realistic subject and its ability to keep audiences engaged with unexpected twists and turns. The film's thematic song, "Kartootien," is recognized for its situational relevance, contributing to the overall impact of the thriller. In conclusion, "Setters" emerges as a decent attempt, shedding light on a critical issue while maintaining a thrilling and engaging narrative.
     </p>
- 
-
-   
   </div> <!-- coloumn one -->
+
 
   <div class="col-md-6"> <!-- column second  -->
   <!-- <h1 class="text-center text-uppercase"> Setters </h1> -->
@@ -177,15 +134,15 @@ require_once 'includes/config.php';
           </div> 
           </div>
       </div>
-  </div> <!-- / column second -->
-</div> <!-- row -->
-</div>
+    </div> <!---/ column second--->
+    </div> <!---row--->
+
+
+  </div>
 </section>
 <!--end of news section--> 
 
 <!-- /success story -->
-
-
 
 <section>
   <div class="full mt-5" style="backgroud-color:#000; -webkit-backgroud-color:#000;">

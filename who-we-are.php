@@ -13,7 +13,7 @@
 <?php include('favicon.php'); ?>
 </head>
 
-<body>
+<body oncontextmenu="return false">
 <!-- Navigation -->
 
 <?php 

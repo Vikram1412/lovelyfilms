@@ -5,6 +5,15 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1884.6973920664643!2d72.83315871614319!3d19.134188853484673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7aed48afee9%3A0x94be1a282a0211be!2sLovely+Films+Production+House!5e0!3m2!1sen!2sin!4v1561360004049!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
     </div>
   </div> -->
+
+  <style>
+     .footer-menu ul li{
+      color: #888 !important;
+     }
+     .footer-menu ul li a{
+      color: #888 !important;
+     }
+  </style>
 				<!-- Footer Top Area Start -->
 				<div class="footer-top ptb-90">
 					<div class="container">
@@ -26,8 +35,8 @@
                     </div>
                     <div class="col-md-3 col-sm-3" style="padding-left: inherit;padding-right: 280px;">
                       <div class="head-social dh-list">
-                        <ul class="padding0 margin0" style="width: 107px !important;">
-                          <li>VISITORS<br><b><?php echo $stri = (string)$count;?></b></li>
+                        <ul class="padding0 margin0" style="width: 107px !important;color: #888;">
+                          <li>VISITORS<br><b><?php echo $stri = (string) $count;?></b></li>
                         </ul>
                       </div>
                     </div>
@@ -84,6 +93,11 @@
 								<div class="footer-left">
 									<p> Copyright © 2022 - <?php echo date("Y"); ?> LovelyFilms Pvt. Ltd.</p>
 								</div>
+
+                <div class="" style="float:right;">
+									<p> &nbsp;&nbsp; Powered by - <a href="https://kratitech.com" target="_blank" ><img src="https://www.kratitech.com/assets/img/kt1.png" alt="KratiTech" style="width:38%"> </a> </p>
+								</div>
+
 								<!-- <div class="col-md-3 col-sm-3 hidden-xs main-pad0 float-right mt-10-hide">
                   <div class="head-social dh-list pull-right mt15 m24-mob fl-main">
                     <ul class="padding0 margin0">
@@ -102,6 +116,16 @@
 </footer>
 
   <script type="text/javascript">
+
+
+$(window).mousemove(function (e) {
+	$(".ring").css(
+		"transform",
+		`translateX(calc(${e.clientX}px - 1.25rem)) translateY(calc(${e.clientY}px - 1.25rem))`
+	);
+});
+
+
 	
 /*$(document).ready(function(){
 	$(".mynav ul li").hover(function(){

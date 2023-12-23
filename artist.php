@@ -47,12 +47,10 @@ a {
 button:hover, a:hover {
     color: #e47a58;
 }
-
-
 </style>
 </head>
 
-<body oncontextmenu="return false">
+<body>
 <!-- Navigation -->
 <?php 
 
@@ -66,12 +64,13 @@ include('second-header.php');
 
 ?>
 
+
 <!--news section-->
 <section>
   <div class="full" style="margin-top:100px;background-color:#000;">
     <div class="mycontainer">
     <div class="full">
-        <h1 class="text-uppercase text-center mt-my"> Investment Opportunities</h1>
+        <h1 class="text-uppercase text-center mt-my"> Artist Opportunities</h1>
       </div> 
       <div class="full mt-5">
         <div class="col-xl-12 float-left">
@@ -79,23 +78,18 @@ include('second-header.php');
           <div class="col-md-12">
           <div class="full">
                         <p class="h4 text-center" style="font-family:'HelveticaNeue-Condensed.otf';color:#888;">
-                                Invest in our upcoming movie for a reel-y good opportunity! Your investment not only helps make a blockbuster but can also bring in some serious green. Join us in the action, drama, and returns – lights, camera, invest!
+                        Do you consider yourself to be a talented, passionate and creative singer, lyricist, actor and actress who is always looking to strive for more and wants to work at the very forefront of the films Industries.
                         </p>
-
                         <p class="h4 text-center mt-2 arrow" style="font-family:'HelveticaNeue-Condensed.otf';color:#888;">If somebody wants to reach out to us </p>
 
-
-                        <!-- <p class="h4 text-center mt-2" style="font-family:'HelveticaNeue-Condensed.otf';color:#888;">
-                               
+                     <!--    <p class="h4 text-center mt-2" style="font-family:'HelveticaNeue-Condensed.otf';color:#888;">    
                               <a href="tel:+91 000 000  0000" ><i class="fa fa-phone"></i> +91 0000000000</a>
                               &nbsp;&nbsp;
                               <a href="mailto:info@lovelyfilms.in" ><i class="fa fa-envelope"></i> info@lovelyfilms.in</a>
                               &nbsp;&nbsp;
                               <a href="https://wa.me/0000000000/?text= I want to join you." ><i class="fa fa-whatsapp"></i> +91 0000000000</a>
-                        </p>
-                       -->
-
-
+                        </p> -->
+                      
                 </div>
               </div>
           <div>
