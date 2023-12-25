@@ -36,9 +36,14 @@ require_once 'includes/config.php';
   <div class="carousel-inner">
 
 
-    <div class="carousel-item active">
+
+<div class="carousel-item  active ">
+      <img class="d-block w-100" src="images\banner\lovelyfilms.png" alt="First slide">
+    </div>  
+
+   <!-- <div class="carousel-item active">
       <img class="d-block w-100" src="images\chandrayaan\lovely\banner-3.png" alt="Third slide">
-    </div> 
+    </div>  -->
 
    
 
@@ -46,9 +51,7 @@ require_once 'includes/config.php';
       <img class="d-block w-100" src="images\chandrayaan\courtkachahary-11.jpg" alt="Third slide">
     </div> 
 
-    <div class="carousel-item ">
-      <img class="d-block w-100" src="images\chandrayaan\lovely\banner-1.png" alt="First slide">
-    </div>
+    
 
   
 
@@ -63,9 +66,7 @@ require_once 'includes/config.php';
     </a>
     
 </div>
-
 <!-- /slider section -->
-
 <!-- start movie section -->
 <section>
   <div class="full bg-dark">
@@ -119,20 +120,20 @@ require_once 'includes/config.php';
 
           <div class="carousel-item active">
           <center>
-            <img class="d-block " src="images\setter\setters-12.jpg" alt="First slide ----------">
+            <img class="d-block " src="images\setter\setters-12.jpg" alt="First slide ">
           </div>
 
-          <div class="carousel-item">
+         <div class="carousel-item">
           <center>
             <img class="d-block " src="images\setter\setter-light.png" alt="Second slide">
           </div> 
 
 
-        <div class="carousel-item">
+       <!-- <div class="carousel-item">
           <center>
             <img class="d-block  " src="images\setter\setters-group.jpg" alt="Third slide">
           </div> 
-          </div>
+          </div> -->
       </div>
     </div> <!---/ column second--->
     </div> <!---row--->
@@ -147,46 +148,38 @@ require_once 'includes/config.php';
 <section>
   <div class="full mt-5" style="backgroud-color:#000; -webkit-backgroud-color:#000;">
     <div class="mycontainer">
-      <div class="full">
-      <h1 class="text-uppercase text-center my-clr">Lovely films Pvt Ltd</h1>
-      </div>
+    <!--   <div class="full">
+      <h1 class="text-uppercase text-center my-clr">Lovely films </h1>
+      </div> -->
       <div class="full"> 
-        
-      
-      <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol> -->
+      </ol> 
 
 
-       <!--   <div class="carousel-inner">
+        <div class="carousel-inner">
        <div class="carousel-item active">
-      <img class="d-block w-100" src="./images/chandrayaan/chandryaan-upcoming-11.jpg" alt="First slide">
+      <img class="d-block w-100" src="./images/production/step-1.png" alt="Lovelyfilms">
        </div>
 
        <div class="carousel-item">
-      <img class="d-block w-100" src="images/banner/chandrayaan.jpg" alt="Third slide">
+      <img class="d-block w-100" src="./images/production/step-2.png" alt="Lovelyfilms">
       </div> 
 
       <div class="carousel-item">
-      <img class="d-block w-100" src="images/chandrayaan/courtkachahary.jpg" alt="Third slide">
+      <img class="d-block w-100" src="./images/production/step-3.png" alt="Lovelyfilms">
       </div> 
 
         </div>
-         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
-        <span class="carousel-control-prev-icon" aria-hidden="true" style="padding:15px;"></span>
-        <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true" style="padding:15px;"></span>
-         <span class="sr-only">Next</span>
-        </a>
-        </div> -->
+
+
+        </div>
 
   
-        <img class="d-block w-100" src="./images/gif/productions-steps.gif" alt="First slide">
+        <!-- <img class="d-block w-100" src="./images/gif/productions-steps.gif" alt="First slide"> -->
       </div>
     </div>
   </div>
@@ -197,7 +190,7 @@ require_once 'includes/config.php';
 <?php include('footer.php');?>
 <!--end of footer section--> 
 
-<script style>
+<script >
 
 var autoPlayVideo = document.getElementById("ocScreencapVideo");
   autoPlayVideo.oncanplaythrough = function() {

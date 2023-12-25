@@ -163,8 +163,6 @@ b{
 
 include('header.php');
 
-include('header.php');
-
 // this variable initiate for every pages title
 $page_title ="Apply for get";
 include('second-header.php');

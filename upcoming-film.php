@@ -12,17 +12,16 @@
 <?php include('favicon.php'); ?>
 </head>
 
-<body oncontextmenu="return false">
+<!-- <body oncontextmenu="return false"> -->
+
+<body>
 <!-- Navigation -->
 
 <?php 
 
 include('header.php');
-
-include('header.php');
-
 // this variable initiate for every pages title
-$page_title ="Upcoming films Chndrayaan";
+$page_title ="Upcoming film";
 include('second-header.php');
 
 ?>

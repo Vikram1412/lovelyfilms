@@ -132,12 +132,6 @@ margin-top: -125px;
 
 .img-thumbnail{
             opacity:0.8;transform:scale(1);
-
-            cursor: pointer;
-            -webkit-cursor: pointer;
-            -ms-cursor: pointer;
-            -moz-cursor: pointer;
-            -o-cursor: pointer;
               }
 
   .img-thumbnail:hover{
@@ -226,13 +220,27 @@ margin-top: -125px;
   font-weight:900;
   margin-top:20px;
 }
+
+.hidondesk:before{
+
+          content: "Menu";
+          font-size:15px;
+          float:left;
+          color:#fff;
+          font-weight: 700;
+    margin: 10px 0px 5px -46px;
+
+
+}
+
 </style>
+
 <nav>
   <div class="full forposition">
     <div class="bg-orange">
       <div class="full bg-orange-color">
         <div class="logo"><a href="index"><img src="images/logo/logos.jpg" alt="" /></a></div>
-	 <div class="hidondesk float-right mt-25 mr-3">
+	 <div class="hidondesk float-right mt-25 mr-4">
               <div id="nav-icon2"> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> </div>
             </div>
         <div class="mynav">
@@ -284,7 +292,7 @@ margin-top: -125px;
             
            <!--  <li><a href="contact">Contact Us</a></li> -->
 
-            <li><a href="new-upcoming-chandrayaan" > Upcoming Film <span class="animation">Chandrayaan</span></a></li>
+            <li><a href="upcoming-film" > Upcoming Film <span class="animation">Chandrayaan</span></a></li>
           </ul>
 
 

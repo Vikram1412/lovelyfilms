@@ -58,8 +58,6 @@ button:hover, a:hover {
 
 include('header.php');
 
-include('header.php');
-
 // this variable initiate for every pages title
 $page_title ="Investors";
 include('second-header.php');

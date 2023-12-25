@@ -29,7 +29,7 @@ include('second-header.php');
   <div class="full" style="background-color:#000;"  >
     <div class="container">
        <div class="full mb-5 mt-5">
-    <h1 class="text-uppercase text-center mt-2 my-clr">Who we are ?</h1>
+    <!-- <h1 class="text-uppercase text-center mt-2 my-clr">Who we are ?</h1> -->
 		</div>
       <!--<div class="full text-center mb-5">-->
      <div class="right">

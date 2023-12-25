@@ -22,9 +22,7 @@ include('header.php');
 // this variable initiate for every pages title
 $page_title ="videos";
 include('second-header.php');
-
 ?>
-
 
 <section>
   <div class="full mt-5" style="backgroud-color:#000; -webkit-backgroud-color:#000;">
@@ -38,6 +36,7 @@ include('second-header.php');
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q8rIKgOtrOs" allowfullscreen></iframe>
           </div>
         </div>
+        
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 float-left mb-3">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qlmClaFoK_E" allowfullscreen></iframe>

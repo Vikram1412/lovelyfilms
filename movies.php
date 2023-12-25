@@ -12,7 +12,7 @@
 <?php include('favicon.php'); ?>
 </head>
 
-<body>
+<body oncontextmenu="return false">
 <!-- Navigation -->
 <?php 
 
@@ -42,7 +42,7 @@ include('second-header.php');
         <div class="col-md-12 col-sm-12">
           <center>
            
-            <img src="images\chandrayaan\lovely\chandrayaan.jpg"  class="img-thumbnail" alt="Responsive image" style="width:98% ! important;">
+      <img src="images\chandrayaan\lovely\chandrayaan.jpg"  class="img-thumbnail" alt="Responsive image" style="width:98% ! important;"> 
             </div>
 
 </div>

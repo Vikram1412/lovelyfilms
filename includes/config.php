@@ -1,9 +1,9 @@
 <?php
 
-/*  $servername = "localhost";
+/*   $servername = "localhost";
 $username = "binsysco";
 $password = "g$9Qt@3KrE";
-$db = "binsysco_lovelyfi_lovelyfilms"; */
+$db = "binsysco_lovelyfi_lovelyfilms";  */
 
 $servername = "localhost";
 $username = "root";
