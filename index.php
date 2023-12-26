@@ -21,52 +21,47 @@ require_once 'includes/config.php';
 <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
 <?php include('favicon.php'); ?>
 </head>
-<body oncontextmenu="return false">
+<body >
 <!-- Navigation -->
 <?php include('header.php');?>
-
-
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
 
   <div class="carousel-inner">
 
+              <div class="carousel-item  active ">
+              <img class="d-block w-100" src="images\banner\crafts.png" alt="First slide">
+              </div>  
 
+              <div class="carousel-item active">
+                  <img class="d-block w-100" src="images\chandrayaan\lovely\banner-3.png" alt="Third slide">
+              </div>
 
-<div class="carousel-item  active ">
-      <img class="d-block w-100" src="images\banner\lovelyfilms.png" alt="First slide">
-    </div>  
-
-   <!-- <div class="carousel-item active">
-      <img class="d-block w-100" src="images\chandrayaan\lovely\banner-3.png" alt="Third slide">
-    </div>  -->
-
-   
-
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images\chandrayaan\courtkachahary-11.jpg" alt="Third slide">
-    </div> 
-
-    
-
-  
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images\chandrayaan\courtkachahary-11.jpg" alt="Third slide">
+              </div> 
 
   </div> 
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
-      <span class="carousel-control-prev-icon" aria-hidden="true" style="padding:15px;"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true" style="padding:15px;"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="padding:15px;">
+        <span class="carousel-control-prev-icon" aria-hidden="true" style="padding:15px;"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true" style="padding:15px;"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+ 
 </div>
+
 <!-- /slider section -->
+
 <!-- start movie section -->
 <section>
   <div class="full bg-dark">
@@ -89,6 +84,18 @@ require_once 'includes/config.php';
   </div>
 </section>
 <!-- end movie section -->
+
+<style>
+
+   .image-attach{
+            
+            background-image: url("https://www.angelone.in/wp-content/uploads/2021/04/Future-looks-bleak-for-film-industries-in-India.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+              }
+</style>
+
 
 <!-- success story  -->
 <section>
@@ -137,14 +144,13 @@ require_once 'includes/config.php';
       </div>
     </div> <!---/ column second--->
     </div> <!---row--->
-
-
   </div>
 </section>
 <!--end of news section--> 
 
-<!-- /success story -->
 
+
+<!-- /success story -->
 <section>
   <div class="full mt-5" style="backgroud-color:#000; -webkit-backgroud-color:#000;">
     <div class="mycontainer">
@@ -189,64 +195,6 @@ require_once 'includes/config.php';
 <!--footer section-->
 <?php include('footer.php');?>
 <!--end of footer section--> 
-
-<script >
-
-var autoPlayVideo = document.getElementById("ocScreencapVideo");
-  autoPlayVideo.oncanplaythrough = function() {
-      autoPlayVideo.muted = true;
-      autoPlayVideo.play();
-      autoPlayVideo.pause();
-      autoPlayVideo.play();
-  }
-
-$(document).ready(function(){
-  $("video").click(function() {
-    autoPlayVideo.muted = false;
-    if (this.paused) {
-      this.play();
-    } else {
-      this.pause();
-    }
-  });   
-})
-
-$(document).ready(function() {
-  var owl = $('.owl-carousel');
-  owl.owlCarousel({
-    margin: 10,
-    nav: true,
-    loop: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 3
-      },
-      1000: {
-        items: 4
-      }
-    }
-  })
-})
-
-
-$(document).ready(function(){
-  $('.owl-nav').removeClass('disabled');
-  $(".owl-next").click(function(){
-    $('.owl-nav').removeClass('disabled');
-  });
-
-  $(".owl-prev").click(function() {
-    $('.owl-nav').removeClass('disabled');
-  });  
-})
-
-</script>
-
-
-
 
 </body>
 </html>

@@ -122,12 +122,12 @@ margin-top: -125px;
     } 
 
     .carousel-control-prev{
-            left: -4% !important;
+            left: 0% !important;
 
     }
 
     .carousel-control-next{
-      right: -4% !important;
+      right: 0% !important;
     }
 
 .img-thumbnail{

@@ -3170,3 +3170,59 @@ ul.pstr_rating {
 
 
 </style>
+
+
+<script >
+
+var autoPlayVideo = document.getElementById("ocScreencapVideo");
+  autoPlayVideo.oncanplaythrough = function() {
+      autoPlayVideo.muted = true;
+      autoPlayVideo.play();
+      autoPlayVideo.pause();
+      autoPlayVideo.play();
+  }
+
+/* $(document).ready(function(){
+  $("video").click(function() {
+    autoPlayVideo.muted = false;
+    if (this.paused) {
+      this.play();
+    } else {
+      this.pause();
+    }
+  });   
+})
+
+$(document).ready(function() {
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+    margin: 10,
+    nav: true,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 4
+      }
+    }
+  })
+})
+
+
+$(document).ready(function(){
+  $('.owl-nav').removeClass('disabled');
+  $(".owl-next").click(function(){
+    $('.owl-nav').removeClass('disabled');
+  });
+
+  $(".owl-prev").click(function() {
+    $('.owl-nav').removeClass('disabled');
+  });  
+}) */
+
+</script>
