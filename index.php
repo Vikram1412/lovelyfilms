@@ -37,9 +37,7 @@ require_once 'includes/config.php';
               <img class="d-block w-100" src="images\banner\crafts.png" alt="First slide">
               </div>  
 
-              <div class="carousel-item active">
-                  <img class="d-block w-100" src="images\chandrayaan\lovely\banner-3.png" alt="Third slide">
-              </div>
+             
 
               <div class="carousel-item">
                 <img class="d-block w-100" src="images\chandrayaan\courtkachahary-11.jpg" alt="Third slide">
@@ -195,6 +193,61 @@ require_once 'includes/config.php';
 <!--footer section-->
 <?php include('footer.php');?>
 <!--end of footer section--> 
+<script>
 
+
+
+var autoPlayVideo = document.getElementById("ocScreencapVideo");
+  autoPlayVideo.oncanplaythrough = function() {
+      autoPlayVideo.muted = true;
+      autoPlayVideo.play();
+      autoPlayVideo.pause();
+      autoPlayVideo.play();
+  }
+
+$(document).ready(function(){
+  $("video").click(function() {
+    autoPlayVideo.muted = false;
+    if (this.paused) {
+      this.play();
+    } else {
+      this.pause();
+    }
+  });   
+})
+
+$(document).ready(function() {
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+    margin: 10,
+    nav: true,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 4
+      }
+    }
+  })
+})
+
+
+$(document).ready(function(){
+  $('.owl-nav').removeClass('disabled');
+  $(".owl-next").click(function(){
+    $('.owl-nav').removeClass('disabled');
+  });
+
+  $(".owl-prev").click(function() {
+    $('.owl-nav').removeClass('disabled');
+  });  
+})
+
+</script>
 </body>
 </html>
